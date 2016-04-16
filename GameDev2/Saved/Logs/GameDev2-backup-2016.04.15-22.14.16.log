@@ -1,0 +1,516 @@
+﻿[2016.04.15-20.42.09:364][  0]Log file open, 04/15/16 16:42:09
+[2016.04.15-20.42.09:364][  0]LogInit:Display: Running engine for game: GameDev2
+[2016.04.15-20.42.09:364][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.15-20.42.09:364][  0]LogInit:Display: RandInit(-1865040982) SRandInit(-1865040981).
+[2016.04.15-20.42.09:364][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.15-20.42.09:364][  0]LogStats: Stats thread started at 0.069981
+[2016.04.15-20.42.09:364][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.15-20.42.09:364][  0]LogInit: API Version: 2758231
+[2016.04.15-20.42.09:364][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.15-20.42.09:364][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.15-20.42.09:364][  0]LogInit: Build Configuration: Development
+[2016.04.15-20.42.09:364][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.15-20.42.09:364][  0]LogInit: Command line:  
+[2016.04.15-20.42.09:364][  0]LogInit: Base directory: J:/Game/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.15-20.42.09:364][  0]LogInit: Rocket: 1
+[2016.04.15-20.42.09:394][  0]LogInit: Using libcurl 7.41.0
+[2016.04.15-20.42.09:394][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.15-20.42.09:394][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.15-20.42.09:394][  0]LogInit:  - other features:
+[2016.04.15-20.42.09:394][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.15-20.42.09:394][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.15-20.42.09:394][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.15-20.42.09:394][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.15-20.42.09:394][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.15-20.42.09:394][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.15-20.42.09:394][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.15-20.42.09:394][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.15-20.42.09:394][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.15-20.42.09:394][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.15-20.42.09:397][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.04.15-20.42.09:397][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.04.15-20.42.09:397][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.04.15-20.42.09:411][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.15-20.42.09:415][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.15-20.42.09:416][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.15-20.42.09:421][  0]LogInit: Object subsystem initialized
+[2016.04.15-20.42.09:422][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.15-20.42.09:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.15-20.42.09:428][  0]LogInit: Computer: SHANYEPC
+[2016.04.15-20.42.09:428][  0]LogInit: User: Shanye
+[2016.04.15-20.42.09:428][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.15-20.42.09:428][  0]LogInit: High frequency timer resolution =3.507516 MHz
+[2016.04.15-20.42.09:428][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.15-20.42.09:428][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.15-20.42.09:428][  0]LogMemory: Process Physical Memory: 57.80 MB used, 57.80 MB peak
+[2016.04.15-20.42.09:428][  0]LogMemory: Process Virtual Memory: 57.11 MB used, 57.11 MB peak
+[2016.04.15-20.42.09:428][  0]LogMemory: Physical Memory: 4173.26 MB used, 12239.21 MB total
+[2016.04.15-20.42.09:428][  0]LogMemory: Virtual Memory: 386.53 MB used, 134217728.00 MB total
+[2016.04.15-20.42.09:484][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.15-20.42.09:831][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 720 (Feature Level 11_0)
+[2016.04.15-20.42.09:831][  0]LogD3D11RHI: Adapter has 974MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 2 output[s]
+[2016.04.15-20.42.09:832][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.15-20.42.09:832][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 0 output[s]
+[2016.04.15-20.42.09:832][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.15-20.42.09:836][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.15-20.42.09:836][  0]LogRHI: Texture pool is 682 MB (70% of 974 MB)
+[2016.04.15-20.42.09:847][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.15-20.42.09:863][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Junior/Repo/GameDev2/Intermediate/Shaders/WorkingDirectory/8996/).
+[2016.04.15-20.42.09:863][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shanye/AppData/Local/Temp/UnrealShaderWorkingDir/6A31A67D4A77D74FB78019A58E401D44/'.
+[2016.04.15-20.42.09:863][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.15-20.42.11:302][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.15-20.42.11:305][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.15-20.42.11:307][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.15-20.42.11:310][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.15-20.42.11:313][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.15-20.42.11:315][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.15-20.42.11:318][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.15-20.42.11:320][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.15-20.42.11:322][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.15-20.42.11:324][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.15-20.42.11:327][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.15-20.42.11:331][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.15-20.42.11:331][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.15-20.42.11:332][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.15-20.42.11:347][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.15-20.42.11:349][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.15-20.42.11:351][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.15-20.42.11:354][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.15-20.42.11:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.15-20.42.11:396][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache: Loaded boot cache 0.23s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.15-20.42.11:627][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.15-20.42.11:755][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.15-20.42.11:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shanye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.15-20.42.15:021][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.15-20.42.15:029][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.15-20.42.15:272][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.15-20.42.15:272][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.15-20.42.21:865][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.15-20.42.22:116][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2016.04.15-20.42.23:123][  0]SourceControl: Info Source control is disabled
+[2016.04.15-20.42.23:217][  0]SourceControl: Info Source control is disabled
+[2016.04.15-20.42.23:252][  0]SourceControl: Info Source control is disabled
+[2016.04.15-20.42.23:295][  0]SourceControl: Info Source control is disabled
+[2016.04.15-20.42.24:435][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.04.15-20.42.24:435][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.04.15-20.42.24:675][  0]LogEngine: Initializing Engine...
+[2016.04.15-20.42.24:677][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.15-20.42.24:705][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.15-20.42.25:112][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.15-20.42.25:117][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.15-20.42.25:586][  0]LogInit: FAudioDevice initialized.
+[2016.04.15-20.42.25:606][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.15-20.42.25:609][  0]LogInit: Texture streaming: Enabled
+[2016.04.15-20.42.25:651][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.15-20.42.25:651][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.15-20.42.25:651][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a32a4e514c2db6b4aa2fabb39e9eb0dd|d0364dc428fd4a30b51194022302dc17|e802f417-8768-47e2-9a46-4150259d8724
+[2016.04.15-20.42.25:651][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.15-20.42.25:674][  0]LogInit: Transaction tracking system initialized
+[2016.04.15-20.42.25:801][  0]BlueprintLog: New page: Editor Load
+[2016.04.15-20.42.26:189][  0]LocalizationService: Info Localization service is disabled
+[2016.04.15-20.42.26:688][  0]LogConsoleResponse:Display: 
+[2016.04.15-20.42.28:468][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.15-20.42.28:869][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/' took 0.02s
+[2016.04.15-20.42.28:869][  0]SourceControl: Info Source control is disabled
+[2016.04.15-20.42.28:869][  0]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.15-20.42.28:886][  0]LightingResults: New page: Lighting Build
+[2016.04.15-20.42.28:889][  0]MapCheck: New page: Map Check
+[2016.04.15-20.42.28:889][  0]LightingResults: New page: Lighting Build
+[2016.04.15-20.42.28:909][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C1580BEAC0
+[2016.04.15-20.42.28:914][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.15-20.42.28:915][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/GM_BattleBots' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:915][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/GM_BattleBots
+[2016.04.15-20.42.28:925][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:926][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
+[2016.04.15-20.42.28:926][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/LevelSwitchHandler : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:926][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:926][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
+[2016.04.15-20.42.28:926][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/LevelSwitchHandler : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:927][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:927][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:927][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:927][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:927][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:927][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:928][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:928][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:928][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:930][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:930][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32939
+[2016.04.15-20.42.28:931][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:931][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32939
+[2016.04.15-20.42.28:931][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:931][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:931][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32940
+[2016.04.15-20.42.28:931][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:931][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32940
+[2016.04.15-20.42.28:931][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:934][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:934][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32924
+[2016.04.15-20.42.28:934][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:934][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32924
+[2016.04.15-20.42.28:934][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:934][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.15-20.42.28:934][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32925
+[2016.04.15-20.42.28:934][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.28:935][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen.LoadingScreen_C Referenced by EdGraphPin_32925
+[2016.04.15-20.42.28:935][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.15-20.42.28:948][  0]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.15-20.42.28:949][  0]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.15-20.42.28:967][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0020.02] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 0 Warning(s) [in 21 ms]
+[2016.04.15-20.42.28:967][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0020.02] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.15-20.42.28:967][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0020.02] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.15-20.42.29:004][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:004][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MainMenuJazz.uasset.
+[2016.04.15-20.42.29:004][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MainMenuJazz : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:005][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:005][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MainMenuJazz.uasset.
+[2016.04.15-20.42.29:005][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MainMenuJazz : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:005][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:005][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:023][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:023][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:023][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:023][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:023][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:023][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:023][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:024][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:024][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_32372
+[2016.04.15-20.42.29:024][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:024][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_32372
+[2016.04.15-20.42.29:024][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:025][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:025][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_32373
+[2016.04.15-20.42.29:025][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:025][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_32373
+[2016.04.15-20.42.29:025][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:027][  0]LogBlueprint:Error: [compiler MainMenuJazz] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.15-20.42.29:028][  0]LogBlueprint:Warning: [compiler MainMenuJazz] Warning [0020.08] Compile of MainMenuJazz failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms]
+[2016.04.15-20.42.29:028][  0]LogBlueprint:Warning: [compiler MainMenuJazz] Warning [0020.08] Compile of MainMenuJazz failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.15-20.42.29:028][  0]LogBlueprint:Warning: [compiler MainMenuJazz] Warning [0020.08] Compile of MainMenuJazz failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:208][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:208][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:208][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:208][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:209][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:209][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:209][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/MyGameInstance.uasset.
+[2016.04.15-20.42.29:209][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/MyGameInstance : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:224][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by CurrentState
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:224][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by CurrentState
+[2016.04.15-20.42.29:224][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:224][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:224][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:224][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:224][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:225][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:225][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:225][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:225][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:225][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:225][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:225][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:226][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by MyGameInstance
+[2016.04.15-20.42.29:226][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:227][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by MyGameInstance
+[2016.04.15-20.42.29:227][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:231][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:231][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9855
+[2016.04.15-20.42.29:231][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:231][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9855
+[2016.04.15-20.42.29:231][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:231][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:231][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9819
+[2016.04.15-20.42.29:232][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:232][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9819
+[2016.04.15-20.42.29:232][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:232][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:232][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10466
+[2016.04.15-20.42.29:233][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:233][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10466
+[2016.04.15-20.42.29:233][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:233][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:233][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_31189
+[2016.04.15-20.42.29:233][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:233][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_31189
+[2016.04.15-20.42.29:233][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:233][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:233][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_31190
+[2016.04.15-20.42.29:233][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:233][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_31190
+[2016.04.15-20.42.29:233][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:234][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:234][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10519
+[2016.04.15-20.42.29:234][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:234][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10519
+[2016.04.15-20.42.29:234][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:234][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:234][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10520
+[2016.04.15-20.42.29:235][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:235][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10520
+[2016.04.15-20.42.29:235][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:235][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:235][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10532
+[2016.04.15-20.42.29:235][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:235][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10532
+[2016.04.15-20.42.29:235][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:236][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:236][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10550
+[2016.04.15-20.42.29:236][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:236][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10550
+[2016.04.15-20.42.29:236][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:237][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:237][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9789
+[2016.04.15-20.42.29:238][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:238][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9789
+[2016.04.15-20.42.29:238][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:238][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:238][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_Tunnel_20
+[2016.04.15-20.42.29:238][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:238][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_Tunnel_20
+[2016.04.15-20.42.29:238][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:239][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:239][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9716
+[2016.04.15-20.42.29:239][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:239][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9716
+[2016.04.15-20.42.29:239][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:239][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:239][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9777
+[2016.04.15-20.42.29:239][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:239][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9777
+[2016.04.15-20.42.29:239][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:240][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:240][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_SwitchEnum_70
+[2016.04.15-20.42.29:240][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:240][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_SwitchEnum_70
+[2016.04.15-20.42.29:240][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:240][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:240][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10356
+[2016.04.15-20.42.29:240][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:240][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10356
+[2016.04.15-20.42.29:240][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:241][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:241][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10175
+[2016.04.15-20.42.29:241][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:241][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10175
+[2016.04.15-20.42.29:241][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:241][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:241][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10105
+[2016.04.15-20.42.29:241][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:241][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10105
+[2016.04.15-20.42.29:241][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:241][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:242][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10106
+[2016.04.15-20.42.29:242][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:242][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10106
+[2016.04.15-20.42.29:242][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:242][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:242][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_9965
+[2016.04.15-20.42.29:242][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:242][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_9965
+[2016.04.15-20.42.29:242][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:242][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:242][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_9980
+[2016.04.15-20.42.29:243][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:243][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_9980
+[2016.04.15-20.42.29:243][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:243][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu'
+[2016.04.15-20.42.29:243][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10382
+[2016.04.15-20.42.29:243][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/MainMenu' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:243][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu.MainMenu_C Referenced by EdGraphPin_10382
+[2016.04.15-20.42.29:243][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu
+[2016.04.15-20.42.29:244][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:244][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9893
+[2016.04.15-20.42.29:244][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:244][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9893
+[2016.04.15-20.42.29:244][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:245][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:245][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_9875
+[2016.04.15-20.42.29:245][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:245][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_9875
+[2016.04.15-20.42.29:245][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:245][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:245][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_Tunnel_22
+[2016.04.15-20.42.29:245][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:245][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by K2Node_Tunnel_22
+[2016.04.15-20.42.29:245][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:245][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:245][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9771
+[2016.04.15-20.42.29:246][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:246][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9771
+[2016.04.15-20.42.29:246][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:246][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:246][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9920
+[2016.04.15-20.42.29:246][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:246][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9920
+[2016.04.15-20.42.29:246][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:246][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:246][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10569
+[2016.04.15-20.42.29:246][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:246][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10569
+[2016.04.15-20.42.29:246][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:247][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:247][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10570
+[2016.04.15-20.42.29:247][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:247][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_10570
+[2016.04.15-20.42.29:247][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:247][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/State'
+[2016.04.15-20.42.29:247][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9801
+[2016.04.15-20.42.29:248][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/State' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:248][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/State.State Referenced by EdGraphPin_9801
+[2016.04.15-20.42.29:248][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/State
+[2016.04.15-20.42.29:248][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:248][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_9995
+[2016.04.15-20.42.29:248][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:248][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_9995
+[2016.04.15-20.42.29:248][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:248][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:248][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31239
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:249][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31239
+[2016.04.15-20.42.29:249][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:249][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31240
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:249][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31240
+[2016.04.15-20.42.29:249][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:249][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10018
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:249][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10018
+[2016.04.15-20.42.29:249][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:249][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10019
+[2016.04.15-20.42.29:250][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10019
+[2016.04.15-20.42.29:250][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:250][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10460
+[2016.04.15-20.42.29:250][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10460
+[2016.04.15-20.42.29:250][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:250][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by K2Node_CallFunction_4222
+[2016.04.15-20.42.29:250][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:250][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by K2Node_CallFunction_4222
+[2016.04.15-20.42.29:250][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:251][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:251][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31254
+[2016.04.15-20.42.29:251][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:251][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_31254
+[2016.04.15-20.42.29:251][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:251][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog'
+[2016.04.15-20.42.29:251][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10067
+[2016.04.15-20.42.29:251][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:251][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_10067
+[2016.04.15-20.42.29:251][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog
+[2016.04.15-20.42.29:265][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.15-20.42.29:266][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Spawn node  DisplayErrorDialog  must have a class specified.
+[2016.04.15-20.42.29:294][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Could not find a function named "SetMessage" in 'MyGameInstance'.
+Make sure 'MyGameInstance' has been compiled for  DisplayErrorDialog 
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  A  is undetermined.  Connect something to  DisplayErrorDialog  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  B  is undetermined.  Connect something to  DisplayErrorDialog  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  A  is undetermined.  Connect something to  TransitionToState  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  B  is undetermined.  Connect something to  TransitionToState  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  A  is undetermined.  Connect something to  IsCurrentState  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  B  is undetermined.  Connect something to  IsCurrentState  to imply a specific type.
+[2016.04.15-20.42.29:297][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Default value 'NewEnumerator4' for  Current State  is invalid: 'Expected a valid unsigned number for a byte property'
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Default value 'NewEnumerator2' for  Current State  is invalid: 'Expected a valid unsigned number for a byte property'
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2016.04.15-20.42.29:298][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2016.04.15-20.42.29:304][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  A  is undetermined.  Connect something to  TransitionToState  to imply a specific type.
+[2016.04.15-20.42.29:304][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The type of  B  is undetermined.  Connect something to  TransitionToState  to imply a specific type.
+[2016.04.15-20.42.29:304][  0]LogBlueprint:Error: [compiler MyGameInstance] Error Default value 'NewEnumerator3' for  Current State  is invalid: 'Expected a valid unsigned number for a byte property'
+[2016.04.15-20.42.29:304][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2016.04.15-20.42.29:304][  0]LogBlueprint:Error: [compiler MyGameInstance] Error The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2016.04.15-20.42.29:309][  0]LogBlueprint:Warning: [compiler MyGameInstance] Warning [0020.36] Compile of MyGameInstance failed. 25 Fatal Issue(s) 0 Warning(s) [in 50 ms]
+[2016.04.15-20.42.29:309][  0]LogBlueprint:Warning: [compiler MyGameInstance] Warning [0020.36] Compile of MyGameInstance failed. 25 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.15-20.42.29:309][  0]LogBlueprint:Warning: [compiler MyGameInstance] Warning [0020.36] Compile of MyGameInstance failed. 25 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.15-20.42.29:413][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.15-20.42.29:413][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/GM_BattleBots' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap.
+[2016.04.15-20.42.29:413][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/GM_BattleBots
+[2016.04.15-20.42.29:598][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.15-20.42.29:598][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/GM_BattleBots' while loading NULL.
+[2016.04.15-20.42.29:598][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.15-20.42.29:598][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/GM_BattleBots' while loading NULL.
+[2016.04.15-20.42.29:847][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.15-20.42.29:847][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C Referenced by WorldSettings
+[2016.04.15-20.42.29:847][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/GM_BattleBots' while loading NULL.
+[2016.04.15-20.42.29:847][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C Referenced by WorldSettings
+[2016.04.15-20.42.30:174][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.15-20.42.30:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.15-20.42.30:360][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.15-20.42.30:424][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.3ms to complete.
+[2016.04.15-20.42.30:424][  0]LogFileHelpers: Loading map 'MainMenu' took 1.555
+[2016.04.15-20.42.30:861][  0]LogCollectionManager: Loaded 0 collections in 0.014108 seconds
+[2016.04.15-20.42.30:931][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Saved/Collections/' took 0.01s
+[2016.04.15-20.42.30:931][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Developers/Shanye/Collections/' took 0.01s
+[2016.04.15-20.42.30:931][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Collections/' took 0.01s
+[2016.04.15-20.42.30:931][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.15-20.42.30:947][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 1895 classes and 340 folders.
+[2016.04.15-20.42.30:964][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.15-20.42.31:668][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.15-20.42.31:694][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.04.15-20.42.31:874][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.15-20.42.31:905][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.15-20.42.31:950][  0]LogLoad: Full Startup: 23.00 seconds (BP compile: 0.13 seconds)
+[2016.04.15-20.42.31:960][  0]LogWindowsTextInputMethodSystem:Displ
