@@ -1,0 +1,1458 @@
+﻿[2016.04.17-01.03.05:918][  0]Log file open, 04/16/16 21:03:05
+[2016.04.17-01.03.05:918][  0]LogInit:Display: Running engine for game: GameDev2
+[2016.04.17-01.03.05:918][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.17-01.03.05:918][  0]LogInit:Display: RandInit(-366856222) SRandInit(-366856221).
+[2016.04.17-01.03.05:918][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.17-01.03.05:918][  0]LogStats: Stats thread started at 0.062831
+[2016.04.17-01.03.05:918][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.17-01.03.05:918][  0]LogInit: API Version: 2758231
+[2016.04.17-01.03.05:918][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.17-01.03.05:918][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.17-01.03.05:918][  0]LogInit: Build Configuration: Development
+[2016.04.17-01.03.05:918][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.17-01.03.05:918][  0]LogInit: Command line:  
+[2016.04.17-01.03.05:918][  0]LogInit: Base directory: J:/Game/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.17-01.03.05:918][  0]LogInit: Rocket: 1
+[2016.04.17-01.03.05:922][  0]LogInit: Using libcurl 7.41.0
+[2016.04.17-01.03.05:922][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.17-01.03.05:922][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.17-01.03.05:922][  0]LogInit:  - other features:
+[2016.04.17-01.03.05:922][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.17-01.03.05:922][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.17-01.03.05:922][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.17-01.03.05:922][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.17-01.03.05:922][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.17-01.03.05:923][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.17-01.03.05:923][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.17-01.03.05:923][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.17-01.03.05:923][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.17-01.03.05:923][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.17-01.03.05:925][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.04.17-01.03.05:926][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.04.17-01.03.05:926][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.04.17-01.03.05:938][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.17-01.03.05:942][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.17-01.03.05:944][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.17-01.03.05:949][  0]LogInit: Object subsystem initialized
+[2016.04.17-01.03.05:950][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-01.03.05:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.17-01.03.05:957][  0]LogInit: Computer: SHANYEPC
+[2016.04.17-01.03.05:957][  0]LogInit: User: Shanye
+[2016.04.17-01.03.05:957][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.17-01.03.05:957][  0]LogInit: High frequency timer resolution =3.507516 MHz
+[2016.04.17-01.03.05:957][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.17-01.03.05:957][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-01.03.05:957][  0]LogMemory: Process Physical Memory: 58.02 MB used, 58.02 MB peak
+[2016.04.17-01.03.05:957][  0]LogMemory: Process Virtual Memory: 57.11 MB used, 57.11 MB peak
+[2016.04.17-01.03.05:957][  0]LogMemory: Physical Memory: 4363.22 MB used, 12239.21 MB total
+[2016.04.17-01.03.05:957][  0]LogMemory: Virtual Memory: 386.54 MB used, 134217728.00 MB total
+[2016.04.17-01.03.05:986][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.17-01.03.06:341][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 720 (Feature Level 11_0)
+[2016.04.17-01.03.06:341][  0]LogD3D11RHI: Adapter has 974MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 2 output[s]
+[2016.04.17-01.03.06:342][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.17-01.03.06:342][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 0 output[s]
+[2016.04.17-01.03.06:342][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.17-01.03.06:349][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.17-01.03.06:349][  0]LogRHI: Texture pool is 682 MB (70% of 974 MB)
+[2016.04.17-01.03.06:362][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.17-01.03.06:378][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Junior/Repo/GameDev2/Intermediate/Shaders/WorkingDirectory/35384/).
+[2016.04.17-01.03.06:378][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shanye/AppData/Local/Temp/UnrealShaderWorkingDir/8644232847D73DC2E0FFB493A635C651/'.
+[2016.04.17-01.03.06:378][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.17-01.03.06:994][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.17-01.03.06:997][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.17-01.03.07:000][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.17-01.03.07:002][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.17-01.03.07:005][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.17-01.03.07:007][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.17-01.03.07:009][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.17-01.03.07:011][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.17-01.03.07:013][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.17-01.03.07:016][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.17-01.03.07:018][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.17-01.03.07:023][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.17-01.03.07:023][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.17-01.03.07:023][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.17-01.03.07:038][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.17-01.03.07:040][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.17-01.03.07:043][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.17-01.03.07:045][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.17-01.03.07:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.17-01.03.07:087][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.17-01.03.07:126][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.17-01.03.07:172][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.17-01.03.07:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shanye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.17-01.03.07:321][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-01.03.07:323][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.17-01.03.07:405][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.17-01.03.07:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.17-01.03.08:069][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.17-01.03.08:152][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.04.17-01.03.08:257][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.03.08:275][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.03.08:283][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.03.08:288][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.03.08:405][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.04.17-01.03.08:405][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.04.17-01.03.08:447][  0]LogEngine: Initializing Engine...
+[2016.04.17-01.03.08:449][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.17-01.03.08:450][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.17-01.03.08:532][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.17-01.03.08:536][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-01.03.08:554][  0]LogInit: FAudioDevice initialized.
+[2016.04.17-01.03.08:574][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.17-01.03.08:576][  0]LogInit: Texture streaming: Enabled
+[2016.04.17-01.03.08:579][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.17-01.03.08:579][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.17-01.03.08:579][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a32a4e514c2db6b4aa2fabb39e9eb0dd|d0364dc428fd4a30b51194022302dc17|e802f417-8768-47e2-9a46-4150259d8724
+[2016.04.17-01.03.08:579][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.17-01.03.08:590][  0]LogInit: Transaction tracking system initialized
+[2016.04.17-01.03.08:601][  0]BlueprintLog: New page: Editor Load
+[2016.04.17-01.03.08:641][  0]LocalizationService: Info Localization service is disabled
+[2016.04.17-01.03.08:675][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.17-01.03.08:675][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.17-01.03.08:675][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2016.04.17-01.03.08:791][  0]LogConsoleResponse:Display: 
+[2016.04.17-01.03.08:873][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.17-01.03.08:901][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/' took 0.01s
+[2016.04.17-01.03.08:901][  0]SourceControl: Info Source control is disabled
+[2016.04.17-01.03.08:901][  0]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.17-01.03.08:901][  0]LightingResults: New page: Lighting Build
+[2016.04.17-01.03.08:903][  0]MapCheck: New page: Map Check
+[2016.04.17-01.03.08:903][  0]LightingResults: New page: Lighting Build
+[2016.04.17-01.03.08:911][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CFBDEAAC0
+[2016.04.17-01.03.08:984][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:984][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
+[2016.04.17-01.03.08:984][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/LevelSwitchHandler : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:984][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:984][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
+[2016.04.17-01.03.08:984][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/LevelSwitchHandler : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:985][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:985][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:985][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:985][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:987][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:987][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32939
+[2016.04.17-01.03.08:987][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:987][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32939
+[2016.04.17-01.03.08:987][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:987][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:987][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32940
+[2016.04.17-01.03.08:987][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:987][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32940
+[2016.04.17-01.03.08:987][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:989][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:989][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32924
+[2016.04.17-01.03.08:989][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:989][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32924
+[2016.04.17-01.03.08:989][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:989][  0]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
+[2016.04.17-01.03.08:989][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32925
+[2016.04.17-01.03.08:989][  0]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
+[2016.04.17-01.03.08:990][  0]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32925
+[2016.04.17-01.03.08:990][  0]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
+[2016.04.17-01.03.08:997][  0]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.17-01.03.08:998][  0]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
+[2016.04.17-01.03.09:001][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0003.38] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 0 Warning(s) [in 5 ms]
+[2016.04.17-01.03.09:001][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0003.38] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.17-01.03.09:001][  0]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0003.38] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.17-01.03.09:221][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.17-01.03.09:225][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.17-01.03.09:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.17-01.03.09:256][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.343ms to complete.
+[2016.04.17-01.03.09:256][  0]LogFileHelpers: Loading map 'MainMenu' took 0.355
+[2016.04.17-01.03.09:347][  0]LogCollectionManager: Loaded 0 collections in 0.000660 seconds
+[2016.04.17-01.03.09:388][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Saved/Collections/' took 0.01s
+[2016.04.17-01.03.09:388][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Developers/Shanye/Collections/' took 0.01s
+[2016.04.17-01.03.09:388][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Collections/' took 0.01s
+[2016.04.17-01.03.09:388][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.17-01.03.09:394][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1895 classes and 340 folders.
+[2016.04.17-01.03.09:396][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.17-01.03.09:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.17-01.03.09:426][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.17-01.03.09:440][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.17-01.03.09:444][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.17-01.03.09:466][  0]LogLoad: Full Startup: 3.85 seconds (BP compile: 0.09 seconds)
+[2016.04.17-01.03.09:475][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.17-01.03.09:477][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.17-01.03.09:514][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.04.17-01.03.09:640][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.04.17-01.03.09:703][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.17-01.03.09:793][  3]LogAssetRegistry: Asset discovery search completed in 1.6518 seconds
+[2016.04.17-01.03.09:793][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.17-01.03.09:793][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.04.17-01.03.20:621][ 79]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.17-01.03.20:913][ 79]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.04.17-01.03.59:812][641]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:427).
+[2016.04.17-01.04.02:461][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.17-01.04.13:064][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:064][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:064][729]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/ServerList : Can't find file for asset. /Script/AdvancedSessions
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:066][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:068][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:068][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:068][729]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/ServerRow : Can't find file for asset. /Script/AdvancedSessions
+[2016.04.17-01.04.13:068][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:068][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:069][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerRow.uasset.
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:070][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.ESessionSettingSearchResult Referenced by CallFunc_GetSessionPropertyString_SearchResult
+[2016.04.17-01.04.13:070][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionPropertyKeyPair Referenced by CallFunc_GetExtraSettings_ExtraSettings
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ProjectWarcrab/Blueprints/Widgets/ServerRow.ServerRow_C:GetServerName.CallFunc_GetExtraSettings_ExtraSettings.CallFunc_GetExtraSettings_ExtraSettings'. Unknown structure.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:071][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:074][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by K2Node_CallFunction_3534
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:074][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by EdGraphPin_7583
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:074][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.Default__AdvancedSessionsLibrary Referenced by EdGraphPin_7583
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:074][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:075][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionPropertyKeyPair Referenced by EdGraphPin_7585
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:075][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by K2Node_CallFunction_3535
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:075][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by EdGraphPin_7600
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:075][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.Default__AdvancedSessionsLibrary Referenced by EdGraphPin_7600
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:075][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:075][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionPropertyKeyPair Referenced by EdGraphPin_7601
+[2016.04.17-01.04.13:076][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:076][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:076][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.ESessionSettingSearchResult Referenced by EdGraphPin_7603
+[2016.04.17-01.04.13:076][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:079][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:079][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by K2Node_CallFunction_3268
+[2016.04.17-01.04.13:079][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:079][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:080][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.AdvancedSessionsLibrary Referenced by EdGraphPin_34184
+[2016.04.17-01.04.13:080][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:080][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:080][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.Default__AdvancedSessionsLibrary Referenced by EdGraphPin_34184
+[2016.04.17-01.04.13:080][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:096][729]LogBlueprint:Error: [compiler ServerRow] Error Could not find a function named "JoinFromServerList" in 'MyGameInstance_C'.
+Make sure 'MyGameInstance_C' has been compiled for  Join from Server List 
+[2016.04.17-01.04.13:098][729]LogBlueprint:Error: [compiler ServerRow] Error Could not find a function named "GetExtraSettings" in 'ServerRow'.
+Make sure 'ServerRow' has been compiled for  Get Extra Settings 
+[2016.04.17-01.04.13:098][729]LogBlueprint:Error: [compiler ServerRow] Error Could not find a function named "GetSessionPropertyString" in 'ServerRow'.
+Make sure 'ServerRow' has been compiled for  Get Session Property String 
+[2016.04.17-01.04.13:101][729]LogBlueprint:Error: [compiler ServerRow] Error Could not find a function named "GetNumberOfNetworkPlayers" in 'ServerRow'.
+Make sure 'ServerRow' has been compiled for  Get Number Of Network Players 
+[2016.04.17-01.04.13:111][729]LogBlueprint:Warning: [compiler ServerRow] Warning [0067.49] Compile of ServerRow failed. 4 Fatal Issue(s) 0 Warning(s) [in 17 ms]
+[2016.04.17-01.04.13:111][729]LogBlueprint:Warning: [compiler ServerRow] Warning [0067.49] Compile of ServerRow failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.17-01.04.13:111][729]LogBlueprint:Warning: [compiler ServerRow] Warning [0067.49] Compile of ServerRow failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.17-01.04.13:113][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:113][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:113][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:113][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/ServerList.uasset.
+[2016.04.17-01.04.13:117][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:117][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionsSearchSetting Referenced by Temp_struct_Variable
+[2016.04.17-01.04.13:117][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:117][729]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ProjectWarcrab/Blueprints/Widgets/ServerList.ServerList_C:ExecuteUbergraph_ServerList.Temp_struct_Variable.Temp_struct_Variable'. Unknown structure.
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:118][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionsSearchSetting Referenced by Temp_struct_Variable6
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:118][729]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ProjectWarcrab/Blueprints/Widgets/ServerList.ServerList_C:ExecuteUbergraph_ServerList.Temp_struct_Variable6.Temp_struct_Variable6'. Unknown structure.
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:118][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:119][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:133][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:133][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.FindSessionsCallbackProxyAdvanced Referenced by K2Node_LatentOnlineCall_52
+[2016.04.17-01.04.13:133][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:134][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:134][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:134][729]LogLinker:Warning: Can't find file '/Script/AdvancedSessions'
+[2016.04.17-01.04.13:134][729]LoadErrors: Info Failed to load /Script/AdvancedSessions.SessionsSearchSetting Referenced by EdGraphPin_7992
+[2016.04.17-01.04.13:134][729]LogLinker:Warning: Can't find file for asset '/Script/AdvancedSessions' while loading NULL.
+[2016.04.17-01.04.13:149][729]LogBlueprint:Error: [compiler ServerList] Error BaseAsyncTask: Missing function FindSessionsAdvanced from class Unknown Class for async task  RefreshServerList 
+[2016.04.17-01.04.13:150][729]LogBlueprint:Error: [compiler ServerList] Error BaseAsyncTask: Missing function FindSessionsAdvanced from class Unknown Class for async task  RefreshServerList 
+[2016.04.17-01.04.13:150][729]LogBlueprint:Error: [compiler ServerList] Error Could not find a function named "GetSearchResult" in 'ServerRow_C'.
+Make sure 'ServerRow_C' has been compiled for  RefreshServerList 
+[2016.04.17-01.04.13:151][729]LogBlueprint:Error: [compiler ServerList] Error Could not find a function named "GetSearchResult" in 'ServerRow_C'.
+Make sure 'ServerRow_C' has been compiled for  RefreshServerList 
+[2016.04.17-01.04.13:151][729]LogBlueprint:Error: [compiler ServerList] Error Could not find a function named "FindSessionsAdvanced" in 'ServerList'.
+Make sure 'ServerList' has been compiled for  RefreshServerList 
+[2016.04.17-01.04.13:151][729]LogBlueprint:Error: [compiler ServerList] Error Could not find a function named "FindSessionsAdvanced" in 'ServerList'.
+Make sure 'ServerList' has been compiled for  RefreshServerList 
+[2016.04.17-01.04.13:152][729]LogBlueprint:Error: [compiler ServerList] Error Unexpected node type K2Node_LatentOnlineCall encountered at  RefreshServerList 
+[2016.04.17-01.04.13:152][729]LogBlueprint:Error: [compiler ServerList] Error Unexpected node type K2Node_LatentOnlineCall encountered at  RefreshServerList 
+[2016.04.17-01.04.13:152][729]LogBlueprint:Error: [compiler ServerList] Error Unexpected node type K2Node_LatentOnlineCall encountered at  RefreshServerList 
+[2016.04.17-01.04.13:153][729]LogBlueprint:Error: [compiler ServerList] Error Unexpected node type K2Node_LatentOnlineCall encountered at  RefreshServerList 
+[2016.04.17-01.04.13:157][729]LogBlueprint:Warning: [compiler ServerList] Warning [0067.54] Compile of ServerList failed. 10 Fatal Issue(s) 0 Warning(s) [in 17 ms]
+[2016.04.17-01.04.13:157][729]LogBlueprint:Warning: [compiler ServerList] Warning [0067.54] Compile of ServerList failed. 10 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.04.17-01.04.13:157][729]LogBlueprint:Warning: [compiler ServerList] Warning [0067.54] Compile of ServerList failed. 10 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.17-01.04.13:171][729]LogBlueprint:Error: ProxyFactoryClass null in K2Node_LatentOnlineCall /Game/ProjectWarcrab/Blueprints/Widgets/ServerList.ServerList:RefreshServerList.K2Node_LatentOnlineCall_52. Was a class deleted or saved on a non promoted build?
+[2016.04.17-01.04.54:389][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.17-01.05.38:768][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.05.38:768][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-01.08.32:973][862]LogEditorActor: Deleted Actor: PlayerStart
+[2016.04.17-01.08.32:974][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-01.08.32:974][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.17-01.08.33:011][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C96D81080
+[2016.04.17-01.08.33:013][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9D48C540
+[2016.04.17-01.08.33:015][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CAD9AD1C0
+[2016.04.17-01.08.33:016][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C88B74860
+[2016.04.17-01.08.33:018][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9D04EF20
+[2016.04.17-01.08.33:019][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9D04F6A0
+[2016.04.17-01.08.33:020][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CC0E184A0
+[2016.04.17-01.08.33:022][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CC1453F60
+[2016.04.17-01.08.33:023][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CC9DE3920
+[2016.04.17-01.08.33:024][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CC9DE0F40
+[2016.04.17-01.08.33:025][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CD24DE8E0
+[2016.04.17-01.08.33:026][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CD24DC720
+[2016.04.17-01.08.33:027][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CDB26A3E0
+[2016.04.17-01.08.33:029][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017D03ABE5C0
+[2016.04.17-01.08.33:030][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017D08B980E0
+[2016.04.17-01.08.33:041][862]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2016.04.17-01.08.34:291][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.08.34:291][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-01.08.35:755][  8]PIE: New page: PIE session: MainMenu (Apr 16, 2016, 5:08:35 PM)
+[2016.04.17-01.08.35:755][  8]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/UEDPIE_1_MainMenu
+[2016.04.17-01.08.35:762][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005795s)
+[2016.04.17-01.08.35:762][  8]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.17-01.08.35:763][  8]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2016.04.17-01.08.35:763][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/MainMenu.MainMenu to /Game/ProjectWarcrab/UEDPIE_1_MainMenu.MainMenu (0.007103s)
+[2016.04.17-01.08.35:786][  8]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-01.08.35:802][  8]LogInit: FAudioDevice initialized.
+[2016.04.17-01.08.35:902][  8]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.17-01.08.35:903][  8]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.17-01.08.35:903][  8]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.17-01.08.35:903][  8]LogWorld: Game class is 'GameMode'
+[2016.04.17-01.08.35:906][  8]LogWorld: Bringing World /Game/ProjectWarcrab/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.16-21.08.35
+[2016.04.17-01.08.35:906][  8]LogActor:Warning: GameSession /Game/ProjectWarcrab/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.08.35:906][  8]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.08.35:906][  8]LogWorld: Bringing up level for play took: 0.001963
+[2016.04.17-01.08.35:917][  8]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.17-01.08.35:918][  8]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.17-01.08.35:919][  8]LogInit: WinSock: I am ShanyePC (128.113.17.121:0)
+[2016.04.17-01.08.35:919][  8]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.04.17-01.08.35:919][  8]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.17-01.08.35:939][  8]PIE: Info Play in editor start time for /Game/ProjectWarcrab/UEDPIE_1_MainMenu 0.376
+[2016.04.17-01.08.35:941][  8]PIE: New page: PIE session: MainMenu (Apr 16, 2016, 5:08:35 PM)
+[2016.04.17-01.08.36:008][  8]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.17-01.08.36:009][  8]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.17-01.08.36:009][  8]LogNet: Game client on port 7777, rate 10000
+[2016.04.17-01.08.36:009][  8]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.17-01.08.36:029][  8]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu 0.466
+[2016.04.17-01.08.36:031][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.08.36:031][  8]LogNet: NotifyAcceptingConnection: Server MainMenu accept
+[2016.04.17-01.08.36:031][  8]LogNet: Open MainMenu 04/16/16 21:08:36 127.0.0.1
+[2016.04.17-01.08.36:031][  8]LogNet: Added client connection.  Remote address = 127.0.0.1:61531
+[2016.04.17-01.08.36:031][  8]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ProjectWarcrab/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.04.17-01.08.36:031][  8]LogNet: Remote platform little endian=1
+[2016.04.17-01.08.36:031][  8]LogNet: This platform little endian=1
+[2016.04.17-01.08.36:031][  8]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.17-01.08.36:043][  8]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.17-01.08.36:057][  9]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-BBF9880B484BA2D2EB9670A7EEA6223A userId: ShanyePC-BBF9880B484BA2D2EB9670A7EEA6223A
+[2016.04.17-01.08.36:058][  9]LogNet: Welcomed by server (Level: /Game/ProjectWarcrab/UEDPIE_1_MainMenu, Game: /Script/Engine.GameMode)
+[2016.04.17-01.08.36:088][  9]LogLoad: LoadMap: 127.0.0.1//Game/ProjectWarcrab/UEDPIE_1_MainMenu?game=/Script/Engine.GameMode
+[2016.04.17-01.08.36:108][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CB6301760
+[2016.04.17-01.08.36:110][  9]Cmd: MEM
+[2016.04.17-01.08.36:131][  9]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-01.08.36:131][  9]LogMemory: Process Physical Memory: 1057.09 MB used, 1068.30 MB peak
+[2016.04.17-01.08.36:131][  9]LogMemory: Process Virtual Memory: 1648.46 MB used, 2285.99 MB peak
+[2016.04.17-01.08.36:131][  9]LogMemory: Physical Memory: 5224.58 MB used, 12239.21 MB total
+[2016.04.17-01.08.36:131][  9]LogMemory: Virtual Memory: 2411.24 MB used, 134217728.00 MB total
+[2016.04.17-01.08.36:131][  9]LogMemory: 
+[2016.04.17-01.08.36:131][  9]Allocator Stats for TBB: (not implemented)
+[2016.04.17-01.08.36:136][  9]LogWorld: PIE: Copying PIE streaming level from /Game/ProjectWarcrab/MainMenu.MainMenu to /Game/ProjectWarcrab/UEDPIE_2_MainMenu.MainMenu. OwningWorld: None
+[2016.04.17-01.08.36:137][  9]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.17-01.08.36:140][  9]LogWorld: Bringing World /Game/ProjectWarcrab/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.16-21.08.36
+[2016.04.17-01.08.36:140][  9]LogWorld: Bringing up level for play took: 0.001985
+[2016.04.17-01.08.36:155][ 10]LogNet: Client netspeed is 10000
+[2016.04.17-01.08.36:155][ 10]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-BBF9880B484BA2D2EB9670A7EEA6223A?SplitscreenCount=1
+[2016.04.17-01.08.36:156][ 10]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.17-01.08.36:157][ 10]LogNet: Join succeeded: ShanyePC-BBF9880B484
+[2016.04.17-01.08.36:171][ 11]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.17-01.08.36:172][ 11]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.17-01.08.41:816][288]LogBlueprintUserMessages: [MyGameInstance_C_1] Client -2: Looking for host...
+[2016.04.17-01.08.43:479][370]LogBlueprintUserMessages: [MyGameInstance_C_1] Client -2: Looking for host...
+[2016.04.17-01.08.43:479][370]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2016.04.17-01.08.49:267][656]LogBlueprintUserMessages: [MyGameInstance_C_1] Client -2: Hello
+[2016.04.17-01.08.49:308][656]LogPackageName: SearchForPackageOnDisk took   0.040s to resolve TopDownExampleMap.umap.
+[2016.04.17-01.08.49:344][656]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve TopDownExampleMap.umap.
+[2016.04.17-01.08.49:344][656]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.17-01.08.49:344][656]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.17-01.08.49:344][656]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2016.04.17-01.08.49:344][656]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2016.04.17-01.08.49:344][656]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: PlayerController_3, Owner: PlayerController_3, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.17-01.08.49
+[2016.04.17-01.08.49:344][656]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.04.17-01.08.49:344][656]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2016.04.17-01.08.49:367][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017D0F536DE0
+[2016.04.17-01.08.49:367][656]Cmd: MEM
+[2016.04.17-01.08.49:388][656]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-01.08.49:388][656]LogMemory: Process Physical Memory: 1055.85 MB used, 1068.30 MB peak
+[2016.04.17-01.08.49:388][656]LogMemory: Process Virtual Memory: 1582.49 MB used, 2285.99 MB peak
+[2016.04.17-01.08.49:388][656]LogMemory: Physical Memory: 5224.49 MB used, 12239.21 MB total
+[2016.04.17-01.08.49:388][656]LogMemory: Virtual Memory: 2347.24 MB used, 134217728.00 MB total
+[2016.04.17-01.08.49:388][656]LogMemory: 
+[2016.04.17-01.08.49:388][656]Allocator Stats for TBB: (not implemented)
+[2016.04.17-01.08.49:804][656]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.17-01.08.49:804][656]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.17-01.08.49:804][656]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.17-01.08.49:805][656]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7778
+[2016.04.17-01.08.49:811][656]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.16-21.08.49
+[2016.04.17-01.08.49:811][656]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.08.49:811][656]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.08.49:811][656]LogWorld: Bringing up level for play took: 0.005392
+[2016.04.17-01.08.49:811][656]LogLongPackageNames:Warning: URL: :7778//Game/TopDownBP/Maps/TopDownExampleMap: Name may not contain the following characters: :
+[2016.04.17-01.08.49:812][656]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.04.17-01.08.49:813][656]LogScript:Warning: Accessed None 'Widget'
+	MyGameInstance_C /Engine/Transient.UnrealEdEngine_0:MyGameInstance_C_1
+	Function /Game/ProjectWarcrab/Blueprints/MyGameInstance.MyGameInstance_C:HideWidget:000D
+[2016.04.17-01.08.49:813][656]PIE:Error: Error Accessed None 'Widget' from node Remove from Parent in graph 'HideWidget' in blueprint MyGameInstance
+[2016.04.17-01.08.49:829][657]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.04.17-01.08.49:829][657]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_2] [PlayerController_2]. ChIndex == 0. Closing connection.
+[2016.04.17-01.08.49:829][657]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_2, Owner: PlayerController_2, Channels: 11, RemoteAddr: 127.0.0.1:61531, Time: 2016.04.17-01.08.49
+[2016.04.17-01.08.49:829][657]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.04.17-01.08.49:830][657]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.17-01.08.54:448][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.08.54:476][848]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.08.54:477][848]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.17-01.08.54:477][848]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.17-01.08.54:513][848]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.08.54:514][848]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.17-01.08.54:514][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.08.54:540][848]LogExit: GameNetDriver None shut down
+[2016.04.17-01.08.54:541][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CEC7C3060
+[2016.04.17-01.08.54:543][848]LogExit: GameNetDriver None shut down
+[2016.04.17-01.08.54:559][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017D0F880E00
+[2016.04.17-01.08.54:573][849]LogPlayLevel:Display: Destroying online subsystem :Context_21
+[2016.04.17-01.08.54:573][849]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.08.54:573][849]LogPlayLevel:Display: Destroying online subsystem :Context_20
+[2016.04.17-01.08.54:573][849]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.09.01:567][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.04.17-01.09.01:671][647]LogSavePackage: Save=87.526611ms
+[2016.04.17-01.09.01:671][647]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/UEDPCMainMenu9C1EAFDB4FE979C1B85B51B2CEAF17E6.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap'
+[2016.04.17-01.09.01:673][647]LogSavePackage: Total save time: 104.182847ms
+[2016.04.17-01.09.01:673][647]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap
+[2016.04.17-01.09.42:526][460]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.04.17-01.09.42:549][460]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.04.17-01.10.09:441][155]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.17-01.10.34:526][106]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:159][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:160][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:161][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:161][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:161][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:161][985]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:934][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:935][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:947][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.07:948][ 30]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.13.34:368][532]LogEditorViewport: Clicking Background
+[2016.04.17-01.14.18:418][264]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Calm_Skeletonal_mesh)
+[2016.04.17-01.14.24:562][853]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Shy_SkeletonalMesh)
+[2016.04.17-01.14.33:788][819]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.17-01.14.34:356][883]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Smart_SkeletonalMesh)
+[2016.04.17-01.15.24:758][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.04.17-01.15.24:821][959]LogTexture:Display: Building textures: Texture2D_2 (BGRA8)
+[2016.04.17-01.15.24:871][959]LogSavePackage: Save=100.044022ms
+[2016.04.17-01.15.24:871][959]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu_Auto1570F411642F41920A5DDF59B8D52D864.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto1.umap'
+[2016.04.17-01.15.24:873][959]LogSavePackage: Total save time: 113.716088ms
+[2016.04.17-01.15.24:873][959]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto1.umap
+[2016.04.17-01.15.24:875][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ProjectWarcrab/MainMenu' took 0.151
+[2016.04.17-01.15.24:875][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.151
+[2016.04.17-01.15.44:941][203]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.17-01.15.45:794][298]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Smart_SkeletonalMesh)
+[2016.04.17-01.15.48:780][647]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Calm_Skeletonal_mesh)
+[2016.04.17-01.15.55:298][269]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Blue_SkeletonalMesh)
+[2016.04.17-01.15.58:079][592]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.04.17-01.16.00:985][931]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.04.17-01.16.21:868][357]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Calm_Skeletonal_mesh)
+[2016.04.17-01.17.26:798][435]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.17.26:867][435]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.17.26:874][435]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-01.17.26:899][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_5, compiling. 
+[2016.04.17-01.17.26:901][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2016.04.17-01.17.26:903][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_2, compiling. 
+[2016.04.17-01.17.26:906][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2016.04.17-01.17.26:908][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_3, compiling. 
+[2016.04.17-01.17.26:910][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_0, compiling. 
+[2016.04.17-01.17.26:912][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.04.17-01.17.26:915][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionNoise_4, compiling. 
+[2016.04.17-01.17.32:534][803]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 294 instructions
+[2016.04.17-01.17.32:534][803]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.17-01.17.32:534][803]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.04.17-01.18.04:778][ 48]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.18.04:784][ 48]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-01.18.04:810][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.04.17-01.18.08:218][287]LogMaterialEditor: Applying material Shy_Mat_scrap
+[2016.04.17-01.18.08:596][287]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.18.08:610][287]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-01.18.08:627][287]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.18.08:647][287]LogMaterial: Missing cached shader map for material Shy_Mat_scrap, compiling. 
+[2016.04.17-01.18.08:658][287]LogMaterial: 0.000919 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-01.18.24:522][382]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 313 instructions
+[2016.04.17-01.18.24:522][382]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.17-01.18.24:522][382]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-01.18.46:683][358]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.17-01.18.47:691][425]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.17-01.19.11:080][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.17-01.19.11:214][663]LogSavePackage: Save=102.308586ms
+[2016.04.17-01.19.11:214][663]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu36734A6D44DA4F272493FBBD073E5845.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap'
+[2016.04.17-01.19.11:219][663]LogSavePackage: Total save time: 116.746437ms
+[2016.04.17-01.19.11:219][663]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap
+[2016.04.17-01.19.11:243][663]LogFileHelpers: Saving map 'MainMenu' took 0.210
+[2016.04.17-01.19.11:278][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Shy/Shy_Mat_scrap" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_Mat_scrap.uasset" SILENT=true
+[2016.04.17-01.19.11:302][663]LogSavePackage: Save=14.127947ms
+[2016.04.17-01.19.11:302][663]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Shy_Mat_scrapAC47AA694D96FC1447FC15A98AC9825C.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_Mat_scrap.uasset'
+[2016.04.17-01.19.11:306][663]LogSavePackage: Total save time: 26.328605ms
+[2016.04.17-01.19.11:306][663]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_Mat_scrap.uasset
+[2016.04.17-01.20.20:545][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.20.20:545][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-01.20.20:545][877]PIE: New page: SIE session: MainMenu (Apr 16, 2016, 5:20:20 PM)
+[2016.04.17-01.20.20:545][877]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/UEDPIE_0_MainMenu
+[2016.04.17-01.20.20:550][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004817s)
+[2016.04.17-01.20.20:551][877]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.17-01.20.20:551][877]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2016.04.17-01.20.20:551][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/MainMenu.MainMenu to /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu (0.006104s)
+[2016.04.17-01.20.20:551][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.17-01.20.20:589][877]LogSelection:Warning: PIE object was selected: "Landscape /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.Landscape_0"
+[2016.04.17-01.20.20:591][877]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-01.20.20:606][877]LogInit: FAudioDevice initialized.
+[2016.04.17-01.20.20:660][877]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.17-01.20.20:660][877]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.17-01.20.20:660][877]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.17-01.20.20:660][877]LogWorld: Game class is 'GameMode'
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:664][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.20:665][877]LogWorld: Bringing World /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.16-21.20.20
+[2016.04.17-01.20.20:665][877]LogActor:Warning: GameSession /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.20.20:665][877]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.17-01.20.20:665][877]LogWorld: Bringing up level for play took: 0.003721
+[2016.04.17-01.20.20:677][877]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.17-01.20.20:678][877]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.04.17-01.20.20:678][877]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.17-01.20.20:679][877]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7777
+[2016.04.17-01.20.20:680][877]PIE: Info Play in editor start time for /Game/ProjectWarcrab/UEDPIE_0_MainMenu 1.117
+[2016.04.17-01.20.20:715][877]LogSelection:Warning: PIE object was selected: "Landscape /Game/ProjectWarcrab/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.Landscape_0"
+[2016.04.17-01.20.20:715][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.20.23:526][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.20.23:527][990]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.17-01.20.23:575][990]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.20.23:575][990]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.17-01.20.23:580][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.17-01.20.23:603][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9D956AC0
+[2016.04.17-01.20.23:604][990]LogExit: GameNetDriver None shut down
+[2016.04.17-01.20.23:630][991]LogPlayLevel:Display: Destroying online subsystem :Context_29
+[2016.04.17-01.20.23:630][991]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.20.31:529][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.04.17-01.20.31:640][586]LogSavePackage: Save=99.559914ms
+[2016.04.17-01.20.31:640][586]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/UEDPCMainMenu149D5E614444CFD7D9C1739E0284A5A8.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap'
+[2016.04.17-01.20.31:642][586]LogSavePackage: Total save time: 110.840835ms
+[2016.04.17-01.20.31:642][586]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/UEDPCMainMenu.umap
+[2016.04.17-01.20.39:051][762]MapCheck: New page: Map Check
+[2016.04.17-01.20.39:075][762]Cmd: MAP REBUILD ALLVISIBLE
+[2016.04.17-01.20.39:075][762]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:089][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:090][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:090][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:090][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:090][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:090][762]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.39:120][762]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.04.17-01.20.39:120][762]LogStats:          STAT_HLOD_BuildClusters - 29.121 ms
+[2016.04.17-01.20.39:120][762]LightingResults: New page: Lighting Build - Apr 16, 2016, 5:20:39 PM
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.04.17-01.20.42:399][762]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.04.17-01.20.42:578][762]LogEditorBuildUtils: Build time 0:00:03
+[2016.04.17-01.20.42:614][763]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.20.43:902][800]Job is a success!
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.43:950][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:062][801]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.04.17-01.20.44:062][801]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.04.17-01.20.44:063][801]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.04.17-01.20.44:080][801]Lightmass on SHANYEPC: 656 ms total, 59 ms importing, 2 ms setup, 274 ms photons, 308 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.00 sec total, 110 ms processing.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:086][801]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.20.44:126][801]LogStaticLightingSystem: Illumination: 4.96 sec (103 ms encoding lightmaps)
+[2016.04.17-01.20.44:126][801]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.04.17-01.20.44:126][801]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2016.04.17-01.20.44:435][802]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.20.44:435][802]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.04.17-01.20.44:436][802]MapCheck: New page: MainMenu - Apr 16, 2016, 5:20:44 PM
+[2016.04.17-01.20.44:491][802]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.988ms to complete.
+[2016.04.17-01.29.20:754][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.04.17-01.29.20:866][989]LogSavePackage: Save=98.137825ms
+[2016.04.17-01.29.20:866][989]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu_Auto2732AD4F94D161ED8FDBE72B8B204658C.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto2.umap'
+[2016.04.17-01.29.20:868][989]LogSavePackage: Total save time: 112.879030ms
+[2016.04.17-01.29.20:868][989]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/MainMenu_Auto2.umap
+[2016.04.17-01.29.20:870][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ProjectWarcrab/MainMenu' took 0.146
+[2016.04.17-01.29.20:870][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.146
+[2016.04.17-01.30.48:537][928]MapCheck: New page: Map Check
+[2016.04.17-01.30.48:560][928]Cmd: MAP REBUILD ALLVISIBLE
+[2016.04.17-01.30.48:560][928]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:568][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:569][928]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.30.48:594][928]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.04.17-01.30.48:594][928]LogStats:          STAT_HLOD_BuildClusters - 24.219 ms
+[2016.04.17-01.30.48:594][928]LightingResults: New page: Lighting Build - Apr 16, 2016, 5:30:48 PM
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.04.17-01.30.53:242][928]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.04.17-01.30.53:405][928]LogEditorBuildUtils: Build time 0:00:04
+[2016.04.17-01.30.53:426][929]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.30.54:735][972]Job is a success!
+[2016.04.17-01.31.02:651][507]MapCheck: New page: Map Check
+[2016.04.17-01.31.02:709][507]Cmd: MAP REBUILD ALLVISIBLE
+[2016.04.17-01.31.02:709][507]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:715][507]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.02:742][507]LogEditorBuildUtils: Build time 0:00:00
+[2016.04.17-01.31.02:801][508]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:983][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:984][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.07:989][861]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.04.17-01.31.07:989][861]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.04.17-01.31.07:990][861]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:000][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:001][861]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.17-01.31.08:020][861]Lightmass on SHANYEPC: 13.8 sec total, 60 ms importing, 2 ms setup, 275 ms photons, 13.4 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 1:34 min total, 119 ms processing.
+[2016.04.17-01.31.08:028][861]LogStaticLightingSystem: Illumination: 6.21 sec (2 ms encoding lightmaps)
+[2016.04.17-01.31.08:028][861]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.04.17-01.31.08:028][861]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.04.17-01.31.08:268][862]Cmd: UpdateLandscapeEditorData
+[2016.04.17-01.31.08:268][862]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.04.17-01.31.08:268][862]MapCheck: New page: MainMenu - Apr 16, 2016, 5:31:08 PM
+[2016.04.17-01.31.08:315][862]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.819ms to complete.
+[2016.04.17-01.31.59:904][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.17-01.32.00:036][163]LogSavePackage: Save=101.925980ms
+[2016.04.17-01.32.00:036][163]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu498D7B014EE14D6597A4FA81DA6DE8A9.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap'
+[2016.04.17-01.32.00:041][163]LogSavePackage: Total save time: 113.617726ms
+[2016.04.17-01.32.00:041][163]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap
+[2016.04.17-01.32.00:061][163]LogFileHelpers: Saving map 'MainMenu' took 0.203
+[2016.04.17-01.32.00:222][163]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.17-01.32.00:404][164]Cmd: QUIT_EDITOR
+[2016.04.17-01.32.01:343][164]LogExit: Preparing to exit.
+[2016.04.17-01.32.01:617][164]LogExit: Editor shut down
+[2016.04.17-01.32.01:617][164]LogExit: Transaction tracking system shut down
+[2016.04.17-01.32.01:620][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CEE318540
+[2016.04.17-01.32.01:620][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C880C7880
+[2016.04.17-01.32.01:620][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C8F9B7E20
+[2016.04.17-01.32.01:624][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017D08B9BBA0
+[2016.04.17-01.32.01:625][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CD11F0CC0
+[2016.04.17-01.32.01:625][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C91AC0C20
+[2016.04.17-01.32.01:625][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C91AC1BC0
+[2016.04.17-01.32.01:626][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CF0C174C0
+[2016.04.17-01.32.01:636][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CF0C147C0
+[2016.04.17-01.32.01:636][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017CF0C177E0
+[2016.04.17-01.32.01:636][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9F7FFCE0
+[2016.04.17-01.32.01:636][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000017C9F89EDE0
+[2016.04.17-01.32.01:808][164]LogExit: Object subsystem successfully closed.
+[2016.04.17-01.32.01:815][164]LogD3D11RHI: Shutdown
+[2016.04.17-01.32.01:815][164]LogD3D11RHI: CleanupD3DDevice
+[2016.04.17-01.32.01:897][164]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module MaterialEditor (205)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module CookingStats (204)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module SequencerWidgets (203)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module CrashTracker (201)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module SceneOutliner (200)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module SuperSearch (199)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module WidgetCarousel (198)
+[2016.04.17-01.32.01:908][164]LogModuleManager: Shutting down and abandoning module AddContentDialog (197)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.04.17-01.32.01:911][164]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (163)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module UserFeedback (162)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module XmlParser (161)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module Blutility (160)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (159)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (158)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module InputBindingEditor (157)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (156)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module SettingsEditor (155)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module ProjectLauncher (154)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module SessionFrontend (153)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module ProfilerClient (152)
+[2016.04.17-01.32.02:118][164]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (151)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module DeviceManager (150)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module AutomationController (149)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module AutomationWindow (148)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Layers (147)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (146)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module DetailCustomizations (145)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module PackagesDialog (144)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Persona (143)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Kismet (142)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module GraphEditor (141)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module ClassViewer (140)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Toolbox (139)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module ModuleUI (138)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module MovieSceneTools (137)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module OutputLog (136)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module GammaUI (135)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Documentation (134)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (133)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (132)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module AnalyticsET (131)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module Analytics (130)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.04.17-01.32.02:119][164]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.04.17-01.32.02:324][164]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.04.17-01.32.02:325][164]LogModuleManager: Shutting down and abandoning module LeapMotionController (118)
+[2016.04.17-01.32.02:343][164]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.04.17-01.32.02:343][164]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.04.17-01.32.02:343][164]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.04.17-01.32.02:343][164]LogModuleManager: Shutting down and abandoning module MessagingDebugger (114)
+[2016.04.17-01.32.02:343][164]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (113)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module HTML5Networking (112)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (111)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module PluginBrowser (110)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module EpicSurvey (109)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module DesktopPlatform (108)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (107)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module UObjectPlugin (106)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (105)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (104)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module SourceControl (103)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module GitSourceControl (102)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (101)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (100)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (99)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module MeshPaint (98)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module HotReload (96)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2016.04.17-01.32.02:344][164]LogModuleManager: Shutting down and abandoning module LevelEditor (94)
+[2016.04.17-01.32.02:345][164]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.04.17-01.32.02:346][164]LogModuleManager: Shutting down and abandoning module AssetRegistry (92)
+[2016.04.17-01.32.02:474][164]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.04.17-01.32.02:475][164]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.04.17-01.32.02:475][164]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (88)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module Paper2D (87)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module Media (85)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.17-01.32.02:575][164]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.04.17-01.32.02:576][164]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module SessionServices (69)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (68)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (67)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module KismetCompiler (63)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module PhysXFormats (62)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module MeshUtilities (61)
+[2016.04.17-01.32.02:578][164]LogModuleManager: Shutting down and abandoning module DerivedDataCache (60)
+[2016.04.17-01.32.02:655][164]LogDerivedDataCache: Shutdown
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (54)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (53)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module Voice (23)
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.17-01.32.02:655][164]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.17-01.32.02:655][164]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.04.17-01.32.02:655][164]LogOnline:Display: Unloading online subsystem: Null
+[2016.04.17-01.32.02:655][164]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.17-01.32.04:658][164]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.17-01.32.04:662][164]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.17-01.32.04:663][164]LogExit: Exiting.
+[2016.04.17-01.32.04:665][164]Log file closed, 04/16/16 21:32:04
