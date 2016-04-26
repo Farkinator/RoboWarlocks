@@ -1,403 +1,429 @@
-﻿[2016.04.22-05.35.59:536][  0]Log file open, 04/22/16 01:35:59
-[2016.04.22-05.35.59:536][  0]LogInit:Display: Running engine for game: GameDev2
-[2016.04.22-05.35.59:536][  0]LogPlatformFile: Not using cached read wrapper
-[2016.04.22-05.35.59:536][  0]LogInit:Display: RandInit(427333943) SRandInit(427333944).
-[2016.04.22-05.35.59:536][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.04.22-05.35.59:536][  0]LogStats: Stats thread started at 0.065209
-[2016.04.22-05.35.59:536][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.22-05.35.59:536][  0]LogInit: API Version: 2758231
-[2016.04.22-05.35.59:536][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.04.22-05.35.59:536][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.04.22-05.35.59:536][  0]LogInit: Build Configuration: Development
-[2016.04.22-05.35.59:536][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.04.22-05.35.59:536][  0]LogInit: Command line:  
-[2016.04.22-05.35.59:536][  0]LogInit: Base directory: J:/Game/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.04.22-05.35.59:536][  0]LogInit: Rocket: 1
-[2016.04.22-05.35.59:657][  0]LogInit: Using libcurl 7.41.0
-[2016.04.22-05.35.59:657][  0]LogInit:  - built for x86_64-pc-win32
-[2016.04.22-05.35.59:657][  0]LogInit:  - supports SSL with WinSSL
-[2016.04.22-05.35.59:657][  0]LogInit:  - other features:
-[2016.04.22-05.35.59:657][  0]LogInit:      CURL_VERSION_SSL
-[2016.04.22-05.35.59:657][  0]LogInit:      CURL_VERSION_IPV6
-[2016.04.22-05.35.59:657][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.04.22-05.35.59:657][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.04.22-05.35.59:657][  0]LogInit:      CURL_VERSION_IDN
-[2016.04.22-05.35.59:657][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.04.22-05.35.59:657][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.04.22-05.35.59:657][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.04.22-05.35.59:657][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.04.22-05.35.59:657][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.04.22-05.35.59:659][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
-[2016.04.22-05.35.59:660][  0]LogOnline:Warning: STEAM: Steam API disabled!
-[2016.04.22-05.35.59:660][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.04.22-05.35.59:673][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.04.22-05.35.59:678][  0]LogVoice:Warning: Failed to initialize voice interface
-[2016.04.22-05.35.59:679][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.04.22-05.35.59:684][  0]LogInit: Object subsystem initialized
-[2016.04.22-05.35.59:685][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.22-05.35.59:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.22-05.35.59:692][  0]LogInit: Computer: SHANYEPC
-[2016.04.22-05.35.59:692][  0]LogInit: User: Shanye
-[2016.04.22-05.35.59:692][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.04.22-05.35.59:692][  0]LogInit: High frequency timer resolution =3.507516 MHz
-[2016.04.22-05.35.59:692][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
-[2016.04.22-05.35.59:692][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.22-05.35.59:692][  0]LogMemory: Process Physical Memory: 58.09 MB used, 58.09 MB peak
-[2016.04.22-05.35.59:692][  0]LogMemory: Process Virtual Memory: 57.19 MB used, 57.19 MB peak
-[2016.04.22-05.35.59:692][  0]LogMemory: Physical Memory: 5350.05 MB used, 12239.21 MB total
-[2016.04.22-05.35.59:692][  0]LogMemory: Virtual Memory: 386.54 MB used, 134217728.00 MB total
-[2016.04.22-05.35.59:721][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.04.22-05.36.00:063][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 720 (Feature Level 11_0)
-[2016.04.22-05.36.00:063][  0]LogD3D11RHI: Adapter has 974MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 2 output[s]
-[2016.04.22-05.36.00:064][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.04.22-05.36.00:064][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 0 output[s]
-[2016.04.22-05.36.00:064][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.04.22-05.36.00:075][  0]LogD3D11RHI: !Direct3DDevice
-[2016.04.22-05.36.00:075][  0]LogRHI: Texture pool is 682 MB (70% of 974 MB)
-[2016.04.22-05.36.00:087][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.22-05.36.00:103][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Junior/Repo/GameDev2/Intermediate/Shaders/WorkingDirectory/80252/).
-[2016.04.22-05.36.00:103][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shanye/AppData/Local/Temp/UnrealShaderWorkingDir/EE5581E34A88EEEF50F792BAF340BA8D/'.
-[2016.04.22-05.36.00:103][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.22-05.36.03:294][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.22-05.36.03:297][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.22-05.36.03:300][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.22-05.36.03:303][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.22-05.36.03:305][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.22-05.36.03:307][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.22-05.36.03:309][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.22-05.36.03:312][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.22-05.36.03:314][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.22-05.36.03:316][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.22-05.36.03:319][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.22-05.36.03:323][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.22-05.36.03:323][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.22-05.36.03:324][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.22-05.36.03:338][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.22-05.36.03:340][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.22-05.36.03:342][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.22-05.36.03:345][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.22-05.36.03:345][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.22-05.36.03:386][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.22-05.36.07:502][  0]LogDerivedDataCache: Loaded boot cache 4.10s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.22-05.36.07:502][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.04.22-05.36.07:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.22-05.36.07:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.22-05.36.07:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.22-05.36.07:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.22-05.36.07:635][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.22-05.36.07:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shanye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.22-05.36.29:331][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.22-05.36.29:564][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.04.22-05.36.36:281][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.04.22-05.36.36:281][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.04.22-05.37.06:341][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.04.22-05.37.08:404][  0]LogAssetRegistry: FAssetRegistry took 0.2397 seconds to start up
-[2016.04.22-05.37.16:289][  0]SourceControl: Info Source control is disabled
-[2016.04.22-05.37.16:306][  0]SourceControl: Info Source control is disabled
-[2016.04.22-05.37.16:484][  0]SourceControl: Info Source control is disabled
-[2016.04.22-05.37.17:042][  0]SourceControl: Info Source control is disabled
-[2016.04.22-05.37.22:352][  0]LogObj: 28640 objects as part of root set at end of initial load.
-[2016.04.22-05.37.22:352][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
-[2016.04.22-05.37.25:369][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 2.01s
-[2016.04.22-05.37.25:587][  0]LogEngine: Initializing Engine...
-[2016.04.22-05.37.25:684][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.22-05.37.25:772][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.04.22-05.37.28:933][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.04.22-05.37.30:714][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.04.22-05.37.30:896][  0]LogInit: FAudioDevice initialized.
-[2016.04.22-05.37.30:917][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.04.22-05.37.30:919][  0]LogInit: Texture streaming: Enabled
-[2016.04.22-05.37.31:095][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.04.22-05.37.31:098][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.04.22-05.37.31:098][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a32a4e514c2db6b4aa2fabb39e9eb0dd|d0364dc428fd4a30b51194022302dc17|e802f417-8768-47e2-9a46-4150259d8724
-[2016.04.22-05.37.31:143][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.04.22-05.37.31:776][  0]LogInit: Transaction tracking system initialized
-[2016.04.22-05.37.33:268][  0]BlueprintLog: New page: Editor Load
-[2016.04.22-05.37.41:161][  0]LocalizationService: Info Localization service is disabled
-[2016.04.22-05.37.43:523][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2016.04.22-05.37.43:554][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
-[2016.04.22-05.37.43:554][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
-[2016.04.22-05.37.44:789][  0]LogConsoleResponse:Display: 
-[2016.04.22-05.37.49:301][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/' took 0.21s
-[2016.04.22-05.37.49:301][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.04.22-05.37.52:125][  0]SourceControl: Info Source control is disabled
-[2016.04.22-05.37.52:216][  0]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.22-05.37.52:239][  0]LogEditorServer:Warning: Can't find file '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap'
-[2016.04.22-05.37.52:277][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.22-05.37.52:440][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 159.662ms to complete.
-[2016.04.22-05.37.52:462][  0]LogFileHelpers: Loading map 'MainMenu' took 0.283
-[2016.04.22-05.37.57:251][  0]LogCollectionManager: Loaded 0 collections in 0.000777 seconds
-[2016.04.22-05.37.57:740][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Saved/Collections/' took 0.01s
-[2016.04.22-05.37.57:740][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Developers/Shanye/Collections/' took 0.01s
-[2016.04.22-05.37.57:740][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Collections/' took 0.01s
-[2016.04.22-05.37.57:740][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2016.04.22-05.37.57:784][  0]LogContentBrowser: Native class hierarchy populated in 0.0247 seconds. Added 1895 classes and 340 folders.
-[2016.04.22-05.37.58:081][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.04.22-05.38.00:289][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.04.22-05.38.00:452][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.04.22-05.38.02:081][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.04.22-05.38.03:254][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.04.22-05.38.03:434][  0]LogLoad: Full Startup: 124.89 seconds (BP compile: 2.19 seconds)
-[2016.04.22-05.38.03:550][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.04.22-05.38.03:628][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.04.22-05.38.05:767][  0]LogContentStreaming: Texture pool size now 400 MB
-[2016.04.22-05.38.08:479][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
-[2016.04.22-05.38.13:236][  6]LogAssetRegistry: Asset discovery search completed in 64.8476 seconds
-[2016.04.22-05.38.13:297][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.04.22-05.38.13:306][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.068682 seconds (updated 0 objects)
-[2016.04.22-05.39.33:633][574]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Shanye\Downloads\mortar.png)
-[2016.04.22-05.39.33:759][574]LogTexture:Display: Building textures: mortar (AutoDXT)
-[2016.04.22-05.39.39:222][585]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.04.22-05.40.03:117][447]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Shanye\Downloads\missle.png)
-[2016.04.22-05.40.03:173][447]LogTexture:Display: Building textures: missle (AutoDXT)
-[2016.04.22-05.40.14:449][481]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Shanye\Downloads\gravity_wall.png)
-[2016.04.22-05.40.14:469][481]LogTexture:Display: Building textures: gravity_wall (AutoDXT)
-[2016.04.22-05.40.22:448][505]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Shanye\Downloads\Electric-Lasso.png)
-[2016.04.22-05.40.22:505][505]LogTexture:Display: Building textures: Electric-Lasso (AutoDXT)
-[2016.04.22-05.40.31:780][533]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Shanye\Downloads\homing_missle.png)
-[2016.04.22-05.40.31:784][533]LogTexture:Display: Building textures: homing_missle (AutoDXT)
-[2016.04.22-05.40.39:535][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/2DAssets/mortar" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/mortar.uasset" SILENT=true
-[2016.04.22-05.40.40:342][957]LogSavePackage: Save=200.679916ms
-[2016.04.22-05.40.40:342][957]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/mortar6C8E6AF94D4CBA9DB030BDAD1B42C85E.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/mortar.uasset'
-[2016.04.22-05.40.40:374][957]LogSavePackage: Total save time: 471.495498ms
-[2016.04.22-05.40.40:374][957]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/mortar.uasset
-[2016.04.22-05.40.40:387][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/2DAssets/missle" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/missle.uasset" SILENT=true
-[2016.04.22-05.40.40:415][957]LogSavePackage: Save=9.515281ms
-[2016.04.22-05.40.40:415][957]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/missleF6E5689B4EE8B9CCD647D0B5749FF155.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/missle.uasset'
-[2016.04.22-05.40.40:419][957]LogSavePackage: Total save time: 14.217470ms
-[2016.04.22-05.40.40:419][957]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/missle.uasset
-[2016.04.22-05.40.40:435][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/2DAssets/gravity_wall" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/gravity_wall.uasset" SILENT=true
-[2016.04.22-05.40.40:447][957]LogSavePackage: Save=10.411357ms
-[2016.04.22-05.40.40:447][957]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/gravity_wall364DCAA240166E1CF68BBCAF4F134809.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/gravity_wall.uasset'
-[2016.04.22-05.40.40:451][957]LogSavePackage: Total save time: 14.498580ms
-[2016.04.22-05.40.40:451][957]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/gravity_wall.uasset
-[2016.04.22-05.40.40:465][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/2DAssets/Electric-Lasso" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/Electric-Lasso.uasset" SILENT=true
-[2016.04.22-05.40.40:489][957]LogSavePackage: Save=8.518279ms
-[2016.04.22-05.40.40:490][957]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Electric-LassoB755D079492B92FF9101A394CF1AEDC1.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/Electric-Lasso.uasset'
-[2016.04.22-05.40.40:494][957]LogSavePackage: Total save time: 13.269220ms
-[2016.04.22-05.40.40:494][957]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/Electric-Lasso.uasset
-[2016.04.22-05.40.40:509][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/2DAssets/homing_missle" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/homing_missle.uasset" SILENT=true
-[2016.04.22-05.40.40:522][957]LogSavePackage: Save=9.990261ms
-[2016.04.22-05.40.40:522][957]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/homing_missle4A03707246CC4356A149A999CA32BFDD.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/homing_missle.uasset'
-[2016.04.22-05.40.40:526][957]LogSavePackage: Total save time: 14.551040ms
-[2016.04.22-05.40.40:526][957]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/2DAssets/homing_missle.uasset
-[2016.04.22-05.40.47:336][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:336][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
-[2016.04.22-05.40.47:349][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/LevelSwitchHandler : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
-[2016.04.22-05.40.47:350][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:350][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/LevelSwitchHandler.uasset.
-[2016.04.22-05.40.47:377][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:377][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:378][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Blueprints/Widgets/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen
-[2016.04.22-05.40.47:378][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:378][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:379][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:379][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:416][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:443][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32939
-[2016.04.22-05.40.47:443][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:452][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:452][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32940
-[2016.04.22-05.40.47:452][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:458][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:458][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32924
-[2016.04.22-05.40.47:458][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.47:458][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen'
-[2016.04.22-05.40.47:459][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Blueprints/Widgets/ErrorDialog.ErrorDialog_C Referenced by EdGraphPin_32925
-[2016.04.22-05.40.47:459][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Blueprints/Widgets/LoadingScreen' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/Widgets/MainMenu.uasset.
-[2016.04.22-05.40.48:501][352]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
-[2016.04.22-05.40.48:503][352]LogBlueprint:Error: [compiler LevelSwitchHandler] Error Spawn node  Create Widget  must have a class specified.
-[2016.04.22-05.40.48:595][352]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0290.05] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 0 Warning(s) [in 463 ms]
-[2016.04.22-05.40.48:595][352]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0290.05] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
-[2016.04.22-05.40.48:595][352]LogBlueprint:Warning: [compiler LevelSwitchHandler] Warning [0290.05] Compile of LevelSwitchHandler failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.50:149][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Levels/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Landscape/Ground_LayerInfo
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.50:149][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Levels/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Landscape/Lava_LayerInfo
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.40.50:149][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.50:149][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Levels/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Landscape/test_lavaground
-[2016.04.22-05.40.52:639][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.52:639][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.52:640][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.52:640][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.52:641][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/safezone'
-[2016.04.22-05.40.52:641][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/safezone' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.52:641][352]LoadErrors:Error: Error /Game/ProjectWarcrab/Levels/MainMenu : Can't find file for asset. /Game/ProjectWarcrab/Landscape/safezone
-[2016.04.22-05.40.52:642][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.40.52:642][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.52:707][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/safezone'
-[2016.04.22-05.40.52:707][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/safezone' while loading ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap.
-[2016.04.22-05.40.52:708][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading NULL.
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading NULL.
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading NULL.
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading NULL.
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading NULL.
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/safezone'
-[2016.04.22-05.40.52:709][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/safezone' while loading NULL.
-[2016.04.22-05.40.52:710][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.40.52:710][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading NULL.
-[2016.04.22-05.40.52:710][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/safezone'
-[2016.04.22-05.40.52:710][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/safezone' while loading NULL.
-[2016.04.22-05.40.59:950][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.40.59:950][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Landscape/test_lavaground.test_lavaground Referenced by Landscape_0
-[2016.04.22-05.40.59:950][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading NULL.
-[2016.04.22-05.40.59:951][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.59:951][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Landscape/Ground_LayerInfo.Ground_LayerInfo Referenced by Landscape_0
-[2016.04.22-05.40.59:951][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading NULL.
-[2016.04.22-05.40.59:951][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.59:951][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Landscape/Lava_LayerInfo.Lava_LayerInfo Referenced by Landscape_0
-[2016.04.22-05.40.59:951][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading NULL.
-[2016.04.22-05.40.59:976][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.40.59:976][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading NULL.
-[2016.04.22-05.40.59:976][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.40.59:976][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading NULL.
-[2016.04.22-05.41.00:084][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo'
-[2016.04.22-05.41.00:084][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Ground_LayerInfo' while loading NULL.
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo'
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/Lava_LayerInfo' while loading NULL.
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/safezone'
-[2016.04.22-05.41.00:085][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Landscape/safezone.safezone Referenced by Landscape_0
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/safezone' while loading NULL.
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Landscape/test_lavaground'
-[2016.04.22-05.41.00:085][352]LoadErrors: Info Failed to load /Game/ProjectWarcrab/Landscape/test_lavaground.test_lavaground Referenced by LandscapeMaterialInstanceConstant_1
-[2016.04.22-05.41.00:085][352]LogLinker:Warning: Can't find file for asset '/Game/ProjectWarcrab/Landscape/test_lavaground' while loading NULL.
-[2016.04.22-05.41.03:048][352]LogAIModule: Creating AISystem for world MainMenu
-[2016.04.22-05.41.04:009][352]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.22-05.41.04:025][352]LightingResults: New page: Lighting Build
-[2016.04.22-05.41.04:124][352]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0238 seconds. Added 5 classes and 0 folders.
-[2016.04.22-05.41.04:228][352]LoadErrors: New page: Loading map: MainMenu.umap
-[2016.04.22-05.41.04:485][352]MapCheck: New page: Map Check
-[2016.04.22-05.41.04:485][352]LightingResults: New page: Lighting Build
-[2016.04.22-05.41.05:330][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023595402AC0
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:231][352]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
-[2016.04.22-05.41.06:534][352]LogEditorServer: Finished looking for orphan Actors (0.020 secs)
-[2016.04.22-05.41.06:748][352]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.22-05.41.07:317][352]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 568.815ms to complete.
-[2016.04.22-05.41.07:318][352]LogFileHelpers: Loading map 'MainMenu' took 3.346
-[2016.04.22-05.41.08:148][353]Cmd: UpdateLandscapeEditorData -warnings
-[2016.04.22-05.41.08:571][353]MapCheck:Warning: Warning LandscapeComponent_0 : Fixed up deleted layer weightmap 
-[2016.04.22-05.41.09:210][353]LogMaterial: 0.023920 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.41.09:220][353]LogMaterial: 0.001042 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.41.09:242][353]Cmd: UpdateLandscapeEditorData
-[2016.04.22-05.42.19:733][405]LogMaterial: 0.000523 seconds spent updating 1 materials, 2 interfaces, 3 instances, 0 with static permutations.
-[2016.04.22-05.42.19:782][405]LogMaterial: 0.000666 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.42.19:933][406]Cmd: UpdateLandscapeEditorData
-[2016.04.22-05.42.19:933][406]Cmd: UpdateLandscapeMIC
-[2016.04.22-05.42.19:953][406]LogMaterial: 0.000796 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.42.24:407][882]LogMaterial: 0.000324 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
-[2016.04.22-05.42.24:425][882]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Concrete_Tiles.M_Concrete_Tiles needed to have new flag set bUsedWithLandscape !
-[2016.04.22-05.42.24:548][882]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
-[2016.04.22-05.42.24:968][882]LogMaterial: 0.000755 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.04.22-05.42.24:969][882]LogMaterial: 0.000536 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.42.24:982][883]Cmd: UpdateLandscapeEditorData
-[2016.04.22-05.42.24:983][883]Cmd: UpdateLandscapeMIC
-[2016.04.22-05.42.24:988][883]LogMaterial: 0.000269 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.04.22-05.42.45:608][367]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (NewMediaSoundWave)
-[2016.04.22-05.42.47:030][399]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (NewMediaSoundWave)
-[2016.04.22-05.42.49:947][657]LogEditorActor: Deleted Actor: AmbientSound
-[2016.04.22-05.42.50:166][657]LogEditorActor: Deleted 1 Actors (0.260 secs)
-[2016.04.22-05.43.13:125][346]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2016.04.22-05.43.16:722][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Levels/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.04.22-05.43.17:536][701]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2016.04.22-05.43.18:266][701]LogSavePackage: Save=756.147644ms
-[2016.04.22-05.43.18:266][701]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu2A5F98C8416F90E372F416A5993A7E14.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap'
-[2016.04.22-05.43.18:297][701]LogSavePackage: Total save time: 1542.256117ms
-[2016.04.22-05.43.18:297][701]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap
-[2016.04.22-05.43.18:386][701]LogFileHelpers: Saving map 'MainMenu' took 2.001
-[2016.04.22-05.43.18:402][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Concrete_Tiles" FILE="../../../../../Junior/Repo/GameDev2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" SILENT=true
-[2016.04.22-05.43.18:436][701]LogSavePackage: Save=25.350418ms
-[2016.04.22-05.43.18:436][701]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/M_Concrete_Tiles7B77C08E4FEF6EFF45EF28A1FF2D650C.tmp' to '../../../../../Junior/Repo/GameDev2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset'
-[2016.04.22-05.43.18:451][701]LogSavePackage: Total save time: 46.913542ms
-[2016.04.22-05.43.18:451][701]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
-[2016.04.22-05.44.49:294][363]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Calm_Skeletonal_mesh)
-[2016.04.22-05.44.59:084][483]Cmd: MODE GRID=0
-[2016.04.22-05.48.50:478][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Levels/MainMenu" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.04.22-05.48.50:610][  8]LogSavePackage: Save=104.829170ms
-[2016.04.22-05.48.50:610][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/MainMenu3F9D3C3F4E5FBD61553D16828A8FDA2B.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap'
-[2016.04.22-05.48.50:614][  8]LogSavePackage: Total save time: 118.945427ms
-[2016.04.22-05.48.50:614][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap
-[2016.04.22-05.48.50:635][  8]LogFileHelpers: Saving map 'MainMenu' took 0.308
-[2016.04.22-05.48.50:654][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Calm/Calm_BlendSpace" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_BlendSpace.uasset" SILENT=true
-[2016.04.22-05.48.50:665][  8]LogSavePackage: Save=9.298318ms
-[2016.04.22-05.48.50:665][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Calm_BlendSpace054C70C24E9C5024213895A19D99EDFF.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_BlendSpace.uasset'
-[2016.04.22-05.48.50:669][  8]LogSavePackage: Total save time: 13.923243ms
-[2016.04.22-05.48.50:669][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_BlendSpace.uasset
-[2016.04.22-05.48.50:686][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Calm/Calm_AnimBP" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_AnimBP.uasset" SILENT=true
-[2016.04.22-05.48.50:701][  8]LogSavePackage: Save=13.637001ms
-[2016.04.22-05.48.50:701][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Calm_AnimBPB41C6D134F764C759F38BF93D5C778F3.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_AnimBP.uasset'
-[2016.04.22-05.48.50:705][  8]LogSavePackage: Total save time: 17.968845ms
-[2016.04.22-05.48.50:705][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Calm/Calm_AnimBP.uasset
-[2016.04.22-05.48.50:726][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Shy/Shy_BlendSpace" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_BlendSpace.uasset" SILENT=true
-[2016.04.22-05.48.50:737][  8]LogSavePackage: Save=8.147931ms
-[2016.04.22-05.48.50:737][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Shy_BlendSpace4391EC0342663BCC17E61F9E8F66B66B.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_BlendSpace.uasset'
-[2016.04.22-05.48.50:741][  8]LogSavePackage: Total save time: 13.067652ms
-[2016.04.22-05.48.50:742][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_BlendSpace.uasset
-[2016.04.22-05.48.50:761][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Shy/Shy_AnimBP" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_AnimBP.uasset" SILENT=true
-[2016.04.22-05.48.50:776][  8]LogSavePackage: Save=12.837290ms
-[2016.04.22-05.48.50:776][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Shy_AnimBP8231428945B5525A91258E97478018CC.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_AnimBP.uasset'
-[2016.04.22-05.48.50:780][  8]LogSavePackage: Total save time: 17.076474ms
-[2016.04.22-05.48.50:780][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Shy/Shy_AnimBP.uasset
-[2016.04.22-05.48.50:795][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Smart/Smart_BlendSpace" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Smart/Smart_BlendSpace.uasset" SILENT=true
-[2016.04.22-05.48.50:804][  8]LogSavePackage: Save=7.480793ms
-[2016.04.22-05.48.50:804][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Smart_BlendSpaceAE81C8134FD6CE37BF338E882B11C066.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Smart/Smart_BlendSpace.uasset'
-[2016.04.22-05.48.50:809][  8]LogSavePackage: Total save time: 12.445562ms
-[2016.04.22-05.48.50:809][  8]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Smart/Smart_BlendSpace.uasset
-[2016.04.22-05.48.50:822][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Smart/Smart_AnimBP" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Smart/Smart_AnimBP.uasset" SILENT=true
-[2016.04.22-05.48.50:889][  8]LogSavePackage: Save=40.434315ms
-[2016.04.22-05.48.50:889][  8]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Smart_AnimBPC24212424735853E4D5A62A8CE46B83A.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Smart/Smart_AnimBP.uasset'
-[2016.04.22-05.48.50:895][  8]LogSavePackage: Total save time: 46.715681ms
-[2016.04.22-05.48.50:895][  8]LogSavePackage:Display: Finished SavePac
+﻿[2016.04.26-01.32.41:890][  0]Log file open, 04/25/16 21:32:41
+[2016.04.26-01.32.41:890][  0]LogInit:Display: Running engine for game: GameDev2
+[2016.04.26-01.32.41:890][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.26-01.32.41:890][  0]LogInit:Display: RandInit(1864400087) SRandInit(1864400089).
+[2016.04.26-01.32.41:890][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.26-01.32.41:890][  0]LogStats: Stats thread started at 0.062625
+[2016.04.26-01.32.41:890][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-01.32.41:890][  0]LogInit: API Version: 2758231
+[2016.04.26-01.32.41:890][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.26-01.32.41:890][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.26-01.32.41:890][  0]LogInit: Build Configuration: Development
+[2016.04.26-01.32.41:890][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.26-01.32.41:890][  0]LogInit: Command line:  
+[2016.04.26-01.32.41:890][  0]LogInit: Base directory: J:/Game/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.26-01.32.41:890][  0]LogInit: Rocket: 1
+[2016.04.26-01.32.41:894][  0]LogInit: Using libcurl 7.41.0
+[2016.04.26-01.32.41:894][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.26-01.32.41:894][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.26-01.32.41:894][  0]LogInit:  - other features:
+[2016.04.26-01.32.41:894][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.26-01.32.41:894][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.26-01.32.41:894][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.26-01.32.41:894][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.26-01.32.41:894][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.26-01.32.41:894][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.26-01.32.41:894][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.26-01.32.41:894][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.26-01.32.41:894][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.26-01.32.41:894][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.26-01.32.41:896][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.04.26-01.32.41:897][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.04.26-01.32.41:897][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.04.26-01.32.41:909][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.26-01.32.41:916][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.26-01.32.41:921][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.26-01.32.41:931][  0]LogInit: Object subsystem initialized
+[2016.04.26-01.32.41:932][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-01.32.41:932][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.26-01.32.41:944][  0]LogInit: Computer: SHANYEPC
+[2016.04.26-01.32.41:944][  0]LogInit: User: Shanye
+[2016.04.26-01.32.41:944][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.26-01.32.41:944][  0]LogInit: High frequency timer resolution =3.507516 MHz
+[2016.04.26-01.32.41:944][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.26-01.32.41:944][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.26-01.32.41:944][  0]LogMemory: Process Physical Memory: 58.22 MB used, 58.22 MB peak
+[2016.04.26-01.32.41:944][  0]LogMemory: Process Virtual Memory: 57.22 MB used, 57.22 MB peak
+[2016.04.26-01.32.41:944][  0]LogMemory: Physical Memory: 4432.82 MB used, 12239.21 MB total
+[2016.04.26-01.32.41:944][  0]LogMemory: Virtual Memory: 386.54 MB used, 134217728.00 MB total
+[2016.04.26-01.32.41:974][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.26-01.32.42:333][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 720 (Feature Level 11_0)
+[2016.04.26-01.32.42:333][  0]LogD3D11RHI: Adapter has 974MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 2 output[s]
+[2016.04.26-01.32.42:334][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.26-01.32.42:334][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 0 output[s]
+[2016.04.26-01.32.42:334][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.26-01.32.42:347][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.26-01.32.42:347][  0]LogRHI: Texture pool is 682 MB (70% of 974 MB)
+[2016.04.26-01.32.42:359][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.26-01.32.42:375][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../Junior/Repo/GameDev2/Intermediate/Shaders/WorkingDirectory/106032/).
+[2016.04.26-01.32.42:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shanye/AppData/Local/Temp/UnrealShaderWorkingDir/9856E2A240CDBDB67D8E5EA64DA00361/'.
+[2016.04.26-01.32.42:375][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.26-01.32.43:666][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.26-01.32.43:669][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.26-01.32.43:672][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.26-01.32.43:675][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.26-01.32.43:677][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.26-01.32.43:679][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.26-01.32.43:681][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.26-01.32.43:683][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.26-01.32.43:685][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.26-01.32.43:687][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.26-01.32.43:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.26-01.32.43:693][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.26-01.32.43:693][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.26-01.32.43:694][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.26-01.32.43:708][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.26-01.32.43:711][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.26-01.32.43:713][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.26-01.32.43:716][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.26-01.32.43:716][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.26-01.32.43:756][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache: Loaded boot cache 0.21s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.26-01.32.43:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.26-01.32.44:080][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.26-01.32.44:105][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shanye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.26-01.32.49:266][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.26-01.32.49:287][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.26-01.32.50:131][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.26-01.32.50:131][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.26-01.33.03:825][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.26-01.33.04:811][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.04.26-01.33.07:367][  0]SourceControl: Info Source control is disabled
+[2016.04.26-01.33.07:383][  0]SourceControl: Info Source control is disabled
+[2016.04.26-01.33.07:518][  0]SourceControl: Info Source control is disabled
+[2016.04.26-01.33.07:621][  0]SourceControl: Info Source control is disabled
+[2016.04.26-01.33.10:228][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.04.26-01.33.10:228][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.04.26-01.33.11:903][  0]LogEngine: Initializing Engine...
+[2016.04.26-01.33.12:058][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-01.33.12:147][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.26-01.33.13:500][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.26-01.33.13:617][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.26-01.33.13:653][  0]LogInit: FAudioDevice initialized.
+[2016.04.26-01.33.13:673][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.26-01.33.13:675][  0]LogInit: Texture streaming: Enabled
+[2016.04.26-01.33.13:713][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.26-01.33.13:713][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.26-01.33.13:713][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a32a4e514c2db6b4aa2fabb39e9eb0dd|d0364dc428fd4a30b51194022302dc17|e802f417-8768-47e2-9a46-4150259d8724
+[2016.04.26-01.33.13:718][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.26-01.33.13:818][  0]LogInit: Transaction tracking system initialized
+[2016.04.26-01.33.14:321][  0]BlueprintLog: New page: Editor Load
+[2016.04.26-01.33.16:980][  0]LocalizationService: Info Localization service is disabled
+[2016.04.26-01.33.18:260][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.26-01.33.18:261][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.26-01.33.18:261][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2016.04.26-01.33.18:992][  0]LogConsoleResponse:Display: 
+[2016.04.26-01.33.21:072][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/' took 0.02s
+[2016.04.26-01.33.21:072][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.26-01.33.22:300][  0]SourceControl: Info Source control is disabled
+[2016.04.26-01.33.22:345][  0]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-01.33.22:384][  0]LogEditorServer:Warning: Can't find file '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap'
+[2016.04.26-01.33.22:384][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-01.33.22:436][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.146ms to complete.
+[2016.04.26-01.33.22:436][  0]LogFileHelpers: Loading map 'MainMenu' took 0.096
+[2016.04.26-01.33.23:412][  0]LogCollectionManager: Loaded 0 collections in 0.000704 seconds
+[2016.04.26-01.33.23:511][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Saved/Collections/' took 0.01s
+[2016.04.26-01.33.23:511][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Developers/Shanye/Collections/' took 0.01s
+[2016.04.26-01.33.23:511][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Collections/' took 0.01s
+[2016.04.26-01.33.23:511][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000304 seconds
+[2016.04.26-01.33.23:531][  0]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 1895 classes and 340 folders.
+[2016.04.26-01.33.23:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.26-01.33.24:202][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.26-01.33.24:230][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.26-01.33.24:428][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.26-01.33.24:484][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.26-01.33.24:537][  0]LogLoad: Full Startup: 43.14 seconds (BP compile: 0.15 seconds)
+[2016.04.26-01.33.24:546][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.26-01.33.24:550][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.26-01.33.24:864][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.04.26-01.33.25:170][  0]LogRenderer: Reallocating scene render targets to support 1220x572 (Frame:2).
+[2016.04.26-01.33.26:013][  3]LogAssetRegistry: Asset discovery search completed in 21.2134 seconds
+[2016.04.26-01.33.26:013][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.26-01.33.26:013][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.04.26-01.34.16:399][810]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.26-01.34.16:522][810]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.26-01.34.16:522][810]LightingResults: New page: Lighting Build
+[2016.04.26-01.34.16:733][810]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0064 seconds. Added 5 classes and 0 folders.
+[2016.04.26-01.34.16:748][810]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.04.26-01.34.16:775][810]MapCheck: New page: Map Check
+[2016.04.26-01.34.16:775][810]LightingResults: New page: Lighting Build
+[2016.04.26-01.34.16:948][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020C422C6AC0
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:098][810]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.26-01.34.17:100][810]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.26-01.34.17:163][810]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.26-01.34.17:194][810]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.474ms to complete.
+[2016.04.26-01.34.17:194][810]LogFileHelpers: Loading map 'MainMenu' took 0.681
+[2016.04.26-01.34.17:293][811]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.26-01.34.17:342][811]Cmd: UpdateLandscapeEditorData
+[2016.04.26-01.38.20:370][224]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 J:\Game\Junior\ProjectWarcrab\Missle.fbx)
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: Model, ItemCount : 6
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.04.26-01.38.20:590][224]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.26-01.38.20:676][224]LogFbx: Loading FBX Scene from J:\Game\Junior\ProjectWarcrab\Missle.fbx
+[2016.04.26-01.38.20:779][224]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.26-01.38.37:323][224]LogFbx: Loading FBX Scene from J:\Game\Junior\ProjectWarcrab\Missle.fbx
+[2016.04.26-01.38.37:401][224]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.26-01.38.37:485][224]LogFbx:Warning: Triangulating static mesh Body
+[2016.04.26-01.38.37:738][224]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.04.26-01.38.37:770][224]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.04.26-01.38.37:801][224]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.04.26-01.38.37:847][224]LogStaticMesh: Building static mesh Missle...
+[2016.04.26-01.38.37:891][224]LogStaticMesh: Built static mesh [0.044878.2s] /Game/ProjectWarcrab/3DAssets/Missle.Missle
+[2016.04.26-01.38.37:985][224]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.26-01.38.37:985][224]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.04.26-01.38.42:322][610]LogRenderer: Reallocating scene render targets to support 1432x920 (Frame:619).
+[2016.04.26-01.39.08:606][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020C35818360
+[2016.04.26-01.39.15:777][531]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 J:\Game\Junior\ProjectWarcrab\Missle.fbx)
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: Model, ItemCount : 6
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.04.26-01.39.15:785][531]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.26-01.39.15:854][531]LogFbx: Loading FBX Scene from J:\Game\Junior\ProjectWarcrab\Missle.fbx
+[2016.04.26-01.39.15:941][531]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.26-01.39.34:273][531]LogFbx: Loading FBX Scene from J:\Game\Junior\ProjectWarcrab\Missle.fbx
+[2016.04.26-01.39.34:353][531]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.26-01.39.34:377][531]LogFbx:Warning: Triangulating static mesh Body
+[2016.04.26-01.39.34:516][531]LogFbx:Warning: Triangulating static mesh polySurface4
+[2016.04.26-01.39.34:547][531]LogFbx:Warning: Triangulating static mesh polySurface2
+[2016.04.26-01.39.34:578][531]LogFbx:Warning: Triangulating static mesh polySurface3
+[2016.04.26-01.39.34:617][531]LogStaticMesh: Building static mesh Missle...
+[2016.04.26-01.39.34:641][531]LogStaticMesh: Built static mesh [0.029299.2s] /Game/ProjectWarcrab/3DAssets/Missle.Missle
+[2016.04.26-01.39.34:652][531]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.04.26-01.39.54:791][388]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 J:\Game\Junior\ProjectWarcrab\Missle_Diffuse.png)
+[2016.04.26-01.39.54:894][388]LogTexture:Display: Building textures: Missle_Diffuse (AutoDXT)
+[2016.04.26-01.39.55:149][388]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 J:\Game\Junior\ProjectWarcrab\Missle_Norm.png)
+[2016.04.26-01.39.55:206][388]LogTexture:Display: Building textures: Missle_Norm (BC5)
+[2016.04.26-01.41.57:233][640]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.41.57:626][640]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.41.57:650][640]LogMaterial: 0.017778 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.41.59:447][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.26-01.41.59:447][717]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.26-01.41.59:447][717]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.26-01.41.59:494][718]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.41.59:497][718]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.41.59:498][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.26-01.41.59:524][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.26-01.42.00:052][745]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.26-01.42.00:052][745]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.26-01.42.00:052][745]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.26-01.42.01:512][832]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.01:515][832]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.01:516][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.26-01.42.01:543][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.26-01.42.01:547][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.26-01.42.02:084][867]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.26-01.42.02:085][867]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.26-01.42.02:085][867]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.26-01.42.05:107][ 62]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.05:110][ 62]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.05:135][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.26-01.42.05:696][ 99]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.04.26-01.42.05:696][ 99]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.05:696][ 99]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.04.26-01.42.06:892][174]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.06:895][174]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.06:919][174]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.26-01.42.07:502][214]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.04.26-01.42.07:502][214]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.07:502][214]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.10:729][417]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.10:732][417]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.11:285][451]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.04.26-01.42.11:286][451]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.11:286][451]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.12:715][539]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.12:718][539]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.13:269][577]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.04.26-01.42.13:269][577]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.13:269][577]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.15:881][737]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.15:884][737]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.16:462][775]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.16:462][775]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.16:462][775]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.17:930][865]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.17:933][865]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.18:522][904]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.18:522][904]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.18:522][904]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.19:438][956]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.19:441][956]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.20:040][996]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.04.26-01.42.20:040][996]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.20:040][996]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.20:814][ 45]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.20:817][ 45]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.21:373][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.04.26-01.42.21:373][ 81]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.21:373][ 81]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.21:842][107]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.21:845][107]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.22:427][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.22:427][144]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.22:427][144]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.23:841][229]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.23:844][229]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.24:443][269]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.24:443][269]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.24:443][269]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.27:735][486]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.27:739][486]LogMaterial: 0.000171 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.28:344][528]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.28:344][528]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.28:344][528]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.34:633][945]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.34:637][945]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.35:207][984]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.35:207][984]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.35:207][984]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.38:366][188]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.38:369][188]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.38:961][228]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.38:961][228]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.38:961][228]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.41:187][372]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.41:191][372]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.41:772][412]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2016.04.26-01.42.41:772][412]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.41:772][412]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.45:076][616]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.45:080][616]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.45:648][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.45:648][652]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.45:648][652]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.46:592][706]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.46:595][706]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.47:204][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.47:204][747]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.47:204][747]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.53:087][128]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.53:091][128]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.53:666][167]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.53:666][167]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.53:666][167]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.57:719][352]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.57:722][352]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.58:315][391]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.58:315][391]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.58:315][391]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.58:997][431]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.59:000][431]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.42.59:588][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.42.59:588][470]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.42.59:588][470]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.42.59:771][476]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.42.59:775][476]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.00:401][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.00:401][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.00:401][517]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.02:500][653]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.02:503][653]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.03:083][693]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.03:083][693]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.03:083][693]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.05:553][851]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.05:556][851]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.06:157][891]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.06:157][891]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.06:157][891]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.07:656][975]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.07:659][975]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.08:220][ 11]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.08:220][ 11]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.08:220][ 11]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.09:681][101]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.09:684][101]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.10:268][139]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.10:268][139]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.10:268][139]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.10:991][180]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.10:994][180]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.11:600][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.11:600][221]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.11:600][221]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.13:184][309]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.13:187][309]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.13:808][351]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.13:808][351]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.13:808][351]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.15:070][419]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.15:073][419]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.15:651][458]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.15:651][458]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.15:651][458]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.19:195][672]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.19:199][672]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.19:774][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
+[2016.04.26-01.43.19:774][711]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.26-01.43.19:774][711]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.26-01.43.26:461][128]LogMaterialEditor: Applying material Missle_Mat
+[2016.04.26-01.43.26:748][128]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.26:756][128]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.26:784][128]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.26:796][128]LogMaterial: Missing cached shader map for material Missle_Mat, compiling. 
+[2016.04.26-01.43.26:802][128]LogMaterial: 0.000669 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.26-01.43.27:302][159]LogMaterialEditor: Saving and Compiling material Missle_Mat
+[2016.04.26-01.43.28:434][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/3DAssets/Missle_Mat" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/3DAssets/Missle_Mat.uasset" SILENT=true
+[2016.04.26-01.43.28:480][159]LogSavePackage: Save=18.649380ms
+[2016.04.26-01.43.28:480][159]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Missle_Mat03DE7C414952F114BFE9B1B61B1B485D.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/3DAssets/Missle_Mat.uasset'
+[2016.04.26-01.43.28:484][159]LogSavePackage: Total save time: 34.758788ms
+[2016.04.26-01.43.28:484][159]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/3DAssets/Missle_Mat.uasset
+[2016.04.26-01.43.28:489][159]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2016.04.26-01.43.28:489][159]MaterialEditorSt
