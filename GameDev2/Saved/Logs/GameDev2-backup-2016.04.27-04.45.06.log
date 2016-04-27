@@ -1,0 +1,1372 @@
+﻿[2016.04.27-07.45.02:554][  0]Log file open, 04/27/16 03:45:02
+[2016.04.27-07.45.02:554][  0]LogInit:Display: Running engine for game: GameDev2
+[2016.04.27-07.45.02:554][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.27-07.45.02:554][  0]LogInit:Display: RandInit(72183339) SRandInit(72183340).
+[2016.04.27-07.45.02:554][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.27-07.45.02:554][  0]LogStats: Stats thread started at 0.065292
+[2016.04.27-07.45.02:554][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.27-07.45.02:554][  0]LogInit: API Version: 2758231
+[2016.04.27-07.45.02:554][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.27-07.45.02:554][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.27-07.45.02:554][  0]LogInit: Build Configuration: Development
+[2016.04.27-07.45.02:554][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.27-07.45.02:554][  0]LogInit: Command line:  
+[2016.04.27-07.45.02:554][  0]LogInit: Base directory: J:/Game/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.27-07.45.02:554][  0]LogInit: Rocket: 1
+[2016.04.27-07.45.02:558][  0]LogInit: Using libcurl 7.41.0
+[2016.04.27-07.45.02:558][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.27-07.45.02:558][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.27-07.45.02:558][  0]LogInit:  - other features:
+[2016.04.27-07.45.02:558][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.27-07.45.02:558][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.27-07.45.02:558][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.27-07.45.02:558][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.27-07.45.02:558][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.27-07.45.02:558][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.27-07.45.02:558][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.27-07.45.02:558][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.27-07.45.02:558][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.27-07.45.02:558][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.27-07.45.02:561][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.04.27-07.45.02:562][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.04.27-07.45.02:562][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.04.27-07.45.02:574][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.27-07.45.02:577][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-07.45.02:579][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.27-07.45.02:584][  0]LogInit: Object subsystem initialized
+[2016.04.27-07.45.02:585][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-07.45.02:585][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.27-07.45.02:592][  0]LogInit: Computer: SHANYEPC
+[2016.04.27-07.45.02:592][  0]LogInit: User: Shanye
+[2016.04.27-07.45.02:592][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.27-07.45.02:592][  0]LogInit: High frequency timer resolution =3.507522 MHz
+[2016.04.27-07.45.02:592][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.27-07.45.02:592][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-07.45.02:592][  0]LogMemory: Process Physical Memory: 58.21 MB used, 58.21 MB peak
+[2016.04.27-07.45.02:592][  0]LogMemory: Process Virtual Memory: 59.11 MB used, 59.11 MB peak
+[2016.04.27-07.45.02:592][  0]LogMemory: Physical Memory: 4509.87 MB used, 12239.21 MB total
+[2016.04.27-07.45.02:592][  0]LogMemory: Virtual Memory: 388.48 MB used, 134217728.00 MB total
+[2016.04.27-07.45.02:621][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.27-07.45.02:984][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 720 (Feature Level 11_0)
+[2016.04.27-07.45.02:984][  0]LogD3D11RHI: Adapter has 974MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 2 output[s]
+[2016.04.27-07.45.02:986][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.27-07.45.02:986][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6119MB of shared system memory, 0 output[s]
+[2016.04.27-07.45.02:986][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.27-07.45.02:994][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.27-07.45.02:994][  0]LogRHI: Texture pool is 682 MB (70% of 974 MB)
+[2016.04.27-07.45.03:005][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.27-07.45.03:022][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Junior/Repo/GameDev2/Intermediate/Shaders/WorkingDirectory/54656/).
+[2016.04.27-07.45.03:022][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shanye/AppData/Local/Temp/UnrealShaderWorkingDir/F00C9110490EADF02375F69F30ED557C/'.
+[2016.04.27-07.45.03:022][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.27-07.45.03:633][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.27-07.45.03:635][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.27-07.45.03:638][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.27-07.45.03:640][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.27-07.45.03:643][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.27-07.45.03:645][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.27-07.45.03:647][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.27-07.45.03:650][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.27-07.45.03:652][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.27-07.45.03:655][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.27-07.45.03:657][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.27-07.45.03:661][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.27-07.45.03:661][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.27-07.45.03:662][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.27-07.45.03:676][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.27-07.45.03:678][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.27-07.45.03:680][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.27-07.45.03:683][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.27-07.45.03:683][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.27-07.45.03:724][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Junior/Repo/GameDev2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.27-07.45.03:762][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.27-07.45.03:809][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.27-07.45.03:821][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shanye/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.27-07.45.03:960][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-07.45.03:961][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.27-07.45.04:045][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.27-07.45.04:045][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.27-07.45.04:708][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.27-07.45.04:803][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.04.27-07.45.04:920][  0]SourceControl: Info Source control is disabled
+[2016.04.27-07.45.04:937][  0]SourceControl: Info Source control is disabled
+[2016.04.27-07.45.04:944][  0]SourceControl: Info Source control is disabled
+[2016.04.27-07.45.04:950][  0]SourceControl: Info Source control is disabled
+[2016.04.27-07.45.05:072][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.04.27-07.45.05:072][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.04.27-07.45.05:117][  0]LogEngine: Initializing Engine...
+[2016.04.27-07.45.05:118][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.27-07.45.05:119][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.27-07.45.05:205][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-07.45.05:209][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-07.45.05:225][  0]LogInit: FAudioDevice initialized.
+[2016.04.27-07.45.05:246][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Shanye/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.27-07.45.05:248][  0]LogInit: Texture streaming: Enabled
+[2016.04.27-07.45.05:250][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.27-07.45.05:250][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.27-07.45.05:251][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a32a4e514c2db6b4aa2fabb39e9eb0dd|d0364dc428fd4a30b51194022302dc17|e802f417-8768-47e2-9a46-4150259d8724
+[2016.04.27-07.45.05:251][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.27-07.45.05:263][  0]LogInit: Transaction tracking system initialized
+[2016.04.27-07.45.05:275][  0]BlueprintLog: New page: Editor Load
+[2016.04.27-07.45.05:315][  0]LocalizationService: Info Localization service is disabled
+[2016.04.27-07.45.05:350][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.27-07.45.05:350][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2016.04.27-07.45.05:350][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2016.04.27-07.45.05:468][  0]LogConsoleResponse:Display: 
+[2016.04.27-07.45.05:549][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.27-07.45.05:576][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/' took 0.01s
+[2016.04.27-07.45.05:576][  0]SourceControl: Info Source control is disabled
+[2016.04.27-07.45.05:576][  0]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.27-07.45.05:577][  0]LogEditorServer:Warning: Can't find file '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/MainMenu.umap'
+[2016.04.27-07.45.05:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.27-07.45.05:601][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.556ms to complete.
+[2016.04.27-07.45.05:601][  0]LogFileHelpers: Loading map 'MainMenu' took 0.025
+[2016.04.27-07.45.05:712][  0]LogCollectionManager: Loaded 0 collections in 0.000678 seconds
+[2016.04.27-07.45.05:753][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Saved/Collections/' took 0.01s
+[2016.04.27-07.45.05:753][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Developers/Shanye/Collections/' took 0.01s
+[2016.04.27-07.45.05:753][  0]LogFileCache: Scanning file cache for directory 'J:/Game/Junior/Repo/GameDev2/Content/Collections/' took 0.01s
+[2016.04.27-07.45.05:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.04.27-07.45.05:758][  0]LogContentBrowser: Native class hierarchy populated in 0.0053 seconds. Added 1895 classes and 340 folders.
+[2016.04.27-07.45.05:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.27-07.45.05:787][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.27-07.45.05:789][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.27-07.45.05:803][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.27-07.45.05:807][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.27-07.45.05:829][  0]LogLoad: Full Startup: 3.58 seconds (BP compile: 0.00 seconds)
+[2016.04.27-07.45.05:838][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.27-07.45.05:840][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.27-07.45.05:875][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.04.27-07.45.05:975][  0]LogRenderer: Reallocating scene render targets to support 1220x572 (Frame:2).
+[2016.04.27-07.45.06:060][  1]LogAssetRegistry: Asset discovery search completed in 1.2679 seconds
+[2016.04.27-07.45.06:060][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.27-07.45.06:060][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.04.27-07.45.25:221][335]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.27-07.45.25:557][335]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.04.27-07.45.25:656][335]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.04.27-07.45.25:754][335]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-07.45.35:105][169]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.04.27-07.45.35:181][169]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-07.45.51:912][147]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2016.04.27-07.45.51:999][147]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-07.50.59:798][149]LogEditorTransaction: Undo Move Nodes
+[2016.04.27-07.52.15:052][ 39]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.15:288][ 49]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.15:480][ 56]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.15:676][ 64]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.15:863][ 72]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.16:062][ 78]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.16:272][ 87]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.16:448][ 94]LogEditorTransaction: Undo Add Node
+[2016.04.27-07.52.16:630][101]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.52.16:810][108]LogEditorTransaction: Undo Change Bool Pin Value
+[2016.04.27-07.52.16:977][114]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.17:128][119]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.17:306][126]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.17:485][133]LogEditorTransaction: Undo Create Pin Link
+[2016.04.27-07.52.17:870][153]LogEditorTransaction: Undo Move Node
+[2016.04.27-07.56.02:180][900]BlueprintLog: New page: Compile con_BotController
+[2016.04.27-07.56.02:310][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-07.56.02:355][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C3A0DEB60
+[2016.04.27-07.56.02:356][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C3A0DE200
+[2016.04.27-07.56.02:357][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C6309CF40
+[2016.04.27-07.56.02:359][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C7D0D0F40
+[2016.04.27-07.56.02:359][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C7D0D0900
+[2016.04.27-07.56.02:360][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C03E63560
+[2016.04.27-07.56.02:361][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C7FEF63E0
+[2016.04.27-07.56.02:362][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C7FEF5E40
+[2016.04.27-07.56.02:363][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C10AD7BA0
+[2016.04.27-07.56.02:393][900]BlueprintEditorCompileResults: Info [0660.14] Compile of con_BotController successful! [in 212 ms]
+[2016.04.27-07.56.03:292][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/con_BotController" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset" SILENT=true
+[2016.04.27-07.56.03:453][959]LogSavePackage: Save=143.893890ms
+[2016.04.27-07.56.03:453][959]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/con_BotControllerAA4FF26C40BF412013F71985BF4CC798.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset'
+[2016.04.27-07.56.03:458][959]LogSavePackage: Total save time: 164.880790ms
+[2016.04.27-07.56.03:458][959]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset
+[2016.04.27-07.58.47:062][ 60]BlueprintLog: New page: Compile con_BotController
+[2016.04.27-07.58.47:109][ 60]LogBlueprint:Error: [compiler con_BotController] Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.04.27-07.58.47:209][ 60]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-07.58.47:236][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C16261EE0
+[2016.04.27-07.58.47:237][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C8BFFB9C0
+[2016.04.27-07.58.47:246][ 60]LogBlueprint:Warning: [compiler con_BotController] Warning [0825.00] Compile of con_BotController failed. 1 Fatal Issue(s) 0 Warning(s) [in 184 ms]
+[2016.04.27-07.58.47:246][ 60]BlueprintEditorCompileResults:Error: Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.04.27-07.58.47:246][ 60]BlueprintEditorCompileResults:Warning: Warning [0825.00] Compile of con_BotController failed. 1 Fatal Issue(s) 0 Warning(s) [in 184 ms]
+[2016.04.27-08.06.12:646][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.033
+[2016.04.27-08.06.12:652][ 80]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectWarcrab/Blueprints/con_BotController] ([1] browsable assets)...
+[2016.04.27-08.06.12:653][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectWarcrab/Blueprints/con_BotController]
+[2016.04.27-08.06.12:807][ 80]LogSavePackage: Save=144.226318ms
+[2016.04.27-08.06.12:808][ 80]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/con_BotController_Auto13DC08A774889419AE71B53AC8E8AAD7C.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/con_BotController_Auto1.uasset'
+[2016.04.27-08.06.12:810][ 80]LogSavePackage: Total save time: 155.471586ms
+[2016.04.27-08.06.12:810][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/con_BotController_Auto1.uasset
+[2016.04.27-08.06.12:816][ 80]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ProjectWarcrab/Blueprints/cha_BaseBot] ([1] browsable assets)...
+[2016.04.27-08.06.12:830][ 80]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ProjectWarcrab/Blueprints/cha_BaseBot.cha_BaseBot]
+[2016.04.27-08.06.12:830][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectWarcrab/Blueprints/cha_BaseBot]
+[2016.04.27-08.06.12:950][ 80]LogSavePackage: Save=109.931168ms
+[2016.04.27-08.06.12:950][ 80]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/cha_BaseBot_Auto1B9BC1DC643CBFA42A16F1586B44BA2EA.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/cha_BaseBot_Auto1.uasset'
+[2016.04.27-08.06.12:952][ 80]LogSavePackage: Total save time: 120.799527ms
+[2016.04.27-08.06.12:952][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/cha_BaseBot_Auto1.uasset
+[2016.04.27-08.06.12:952][ 80]LogFileHelpers: Auto-saving content packages took 0.306
+[2016.04.27-08.16.13:290][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.16.13:319][261]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.029
+[2016.04.27-08.16.13:326][261]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectWarcrab/Blueprints/con_BotController] ([1] browsable assets)...
+[2016.04.27-08.16.13:326][261]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectWarcrab/Blueprints/con_BotController]
+[2016.04.27-08.16.13:502][261]LogSavePackage: Save=165.699890ms
+[2016.04.27-08.16.13:502][261]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/con_BotController_Auto291B427F54114FC2050B918823AEE4EA8.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/con_BotController_Auto2.uasset'
+[2016.04.27-08.16.13:505][261]LogSavePackage: Total save time: 177.268170ms
+[2016.04.27-08.16.13:505][261]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Blueprints/con_BotController_Auto2.uasset
+[2016.04.27-08.16.13:505][261]LogFileHelpers: Auto-saving content packages took 0.185
+[2016.04.27-08.16.50:367][306]BlueprintLog: New page: Compile con_BotController
+[2016.04.27-08.16.50:501][306]BlueprintEditorCompileResults: Info [1908.25] Compile of con_BotController successful! [in 134 ms]
+[2016.04.27-08.16.59:843][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/con_BotController" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset" SILENT=true
+[2016.04.27-08.16.59:992][  1]LogSavePackage: Save=140.968460ms
+[2016.04.27-08.16.59:992][  1]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/con_BotController5B51762345B37DCB18A5DAB837771BFD.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset'
+[2016.04.27-08.16.59:997][  1]LogSavePackage: Total save time: 152.062912ms
+[2016.04.27-08.16.59:997][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/con_BotController.uasset
+[2016.04.27-08.18.57:455][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.18.57:499][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/cha_BaseBot" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset" SILENT=true
+[2016.04.27-08.18.57:616][425]LogSavePackage: Save=102.857803ms
+[2016.04.27-08.18.57:616][425]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/cha_BaseBotC85852E0453C593B0DB239B3A6E43DE9.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset'
+[2016.04.27-08.18.57:620][425]LogSavePackage: Total save time: 119.109727ms
+[2016.04.27-08.18.57:620][425]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset
+[2016.04.27-08.25.50:212][244]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2016.04.27-08.25.50:304][244]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-08.26.45:725][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.26.45:752][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.027
+[2016.04.27-08.26.45:759][ 17]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ProjectWarcrab/Character/Blue/Blue_BP] ([1] browsable assets)...
+[2016.04.27-08.26.45:773][ 17]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ProjectWarcrab/Character/Blue/Blue_BP.Blue_BP]
+[2016.04.27-08.26.45:773][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectWarcrab/Character/Blue/Blue_BP]
+[2016.04.27-08.26.45:847][ 17]LogSavePackage: Save=60.745163ms
+[2016.04.27-08.26.45:847][ 17]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Blue_BP_Auto3056D06354E800E7565AF9AB57B29C981.tmp' to '../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Character/Blue/Blue_BP_Auto3.uasset'
+[2016.04.27-08.26.45:850][ 17]LogSavePackage: Total save time: 74.842010ms
+[2016.04.27-08.26.45:850][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Saved/Autosaves/Game/ProjectWarcrab/Character/Blue/Blue_BP_Auto3.uasset
+[2016.04.27-08.26.45:850][ 17]LogFileHelpers: Auto-saving content packages took 0.097
+[2016.04.27-08.32.32:604][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.32.38:840][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.04.27-08.32.53:513][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.04.27-08.33.17:222][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.04.27-08.35.13:173][400]BlueprintLog: New page: Compile cha_BaseBot
+[2016.04.27-08.35.13:242][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.04.27-08.35.13:270][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C845A6FC0
+[2016.04.27-08.35.13:443][400]BlueprintEditorCompileResults: Info [3011.20] Compile of cha_BaseBot successful! [in 270 ms]
+[2016.04.27-08.35.22:971][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/cha_BaseBot" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset" SILENT=true
+[2016.04.27-08.35.23:103][163]LogSavePackage: Save=118.624771ms
+[2016.04.27-08.35.23:103][163]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/cha_BaseBot20DC30764CACC200A82FBA9702222008.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset'
+[2016.04.27-08.35.23:108][163]LogSavePackage: Total save time: 135.085966ms
+[2016.04.27-08.35.23:108][163]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset
+[2016.04.27-08.35.42:664][406]BlueprintLog: New page: Compile Blue_BP
+[2016.04.27-08.35.42:683][406]LogBlueprint:Error: [compiler Blue_BP] Error This blueprint (self) is not a cha_BaseBot_C, therefore ' Target ' must have a connection.
+[2016.04.27-08.35.42:684][406]LogBlueprint:Error: [compiler Blue_BP] Error Variable node  Get IsAttacking  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.04.27-08.35.42:773][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.35.42:807][406]LogBlueprint:Warning: [compiler Blue_BP] Warning [3040.56] Compile of Blue_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 143 ms]
+[2016.04.27-08.35.42:807][406]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a cha_BaseBot_C, therefore ' Target ' must have a connection.
+[2016.04.27-08.35.42:807][406]BlueprintEditorCompileResults:Error: Error Variable node  Get IsAttacking  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.04.27-08.35.42:807][406]BlueprintEditorCompileResults:Warning: Warning [3040.56] Compile of Blue_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 143 ms]
+[2016.04.27-08.36.05:202][801]BlueprintLog: New page: Compile Blue_BP
+[2016.04.27-08.36.05:297][801]BlueprintEditorCompileResults: Info [3063.05] Compile of Blue_BP successful! [in 94 ms]
+[2016.04.27-08.37.38:333][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.37.58:351][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.04.27-08.38.23:215][342]BlueprintLog: New page: Compile cha_BaseBot
+[2016.04.27-08.38.23:371][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.04.27-08.38.23:411][342]BlueprintEditorCompileResults: Info [3201.16] Compile of cha_BaseBot successful! [in 195 ms]
+[2016.04.27-08.38.24:220][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/cha_BaseBot" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset" SILENT=true
+[2016.04.27-08.38.24:351][403]LogSavePackage: Save=122.087616ms
+[2016.04.27-08.38.24:351][403]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/cha_BaseBot860E26934DFBB6563CE49497888E49B1.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset'
+[2016.04.27-08.38.24:357][403]LogSavePackage: Total save time: 133.976635ms
+[2016.04.27-08.38.24:357][403]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset
+[2016.04.27-08.38.50:765][ 56]BlueprintLog: New page: Compile Blue_BP
+[2016.04.27-08.38.50:831][ 56]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.38.50:864][ 56]BlueprintEditorCompileResults: Info [3228.62] Compile of Blue_BP successful! [in 98 ms]
+[2016.04.27-08.38.51:352][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Character/Blue/Blue_BP" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Blue/Blue_BP.uasset" SILENT=true
+[2016.04.27-08.38.51:410][ 84]LogSavePackage: Save=48.237759ms
+[2016.04.27-08.38.51:410][ 84]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/Blue_BP66FA832B4E35898B3945F0A95D60B4FB.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Blue/Blue_BP.uasset'
+[2016.04.27-08.38.51:414][ 84]LogSavePackage: Total save time: 60.773104ms
+[2016.04.27-08.38.51:414][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Character/Blue/Blue_BP.uasset
+[2016.04.27-08.39.10:529][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.27-08.39.12:714][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.39.12:719][543]PIE: New page: PIE session: Untitled_0 (Apr 27, 2016, 12:39:12 AM)
+[2016.04.27-08.39.12:919][543]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_0
+[2016.04.27-08.39.12:920][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000566s)
+[2016.04.27-08.39.12:920][543]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-08.39.12:921][543]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2016.04.27-08.39.12:921][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_1_Untitled_0.NewWorld (0.001592s)
+[2016.04.27-08.39.12:951][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CC5029300
+[2016.04.27-08.39.12:952][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C8BC55620
+[2016.04.27-08.39.12:953][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C186DC2C0
+[2016.04.27-08.39.12:954][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C186DE020
+[2016.04.27-08.39.12:965][543]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-08.39.12:980][543]LogInit: FAudioDevice initialized.
+[2016.04.27-08.39.13:071][543]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.13:071][543]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.13:072][543]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.27-08.39.13:072][543]LogWorld: Game class is 'GameMode'
+[2016.04.27-08.39.13:073][543]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_0.NewWorld up for play (max tick rate 0) at 2016.04.27-04.39.13
+[2016.04.27-08.39.13:073][543]LogActor:Warning: GameSession /Temp/UEDPIE_1_Untitled_0.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.13:073][543]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_1_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.13:073][543]LogWorld: Bringing up level for play took: 0.000667
+[2016.04.27-08.39.13:084][543]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.13:086][543]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.39.13:086][543]LogInit: WinSock: I am ShanyePC (128.113.17.121:0)
+[2016.04.27-08.39.13:086][543]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.04.27-08.39.13:086][543]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.27-08.39.13:098][543]PIE: Info Play in editor start time for /Temp/UEDPIE_1_Untitled_0 0.935
+[2016.04.27-08.39.13:101][543]PIE: New page: PIE session: Untitled_0 (Apr 27, 2016, 12:39:13 AM)
+[2016.04.27-08.39.13:178][543]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.27-08.39.13:178][543]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.27-08.39.13:178][543]LogNet: Game client on port 7777, rate 10000
+[2016.04.27-08.39.13:178][543]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.13:191][543]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu 1.029
+[2016.04.27-08.39.13:193][543]LogNet: NotifyAcceptingConnection: Server NewWorld accept
+[2016.04.27-08.39.13:194][543]LogNet: Open NewWorld 04/27/16 04:39:13 127.0.0.1
+[2016.04.27-08.39.13:194][543]LogNet: Added client connection.  Remote address = 127.0.0.1:61572
+[2016.04.27-08.39.13:194][543]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_0.NewWorld: Accepted
+[2016.04.27-08.39.13:194][543]LogNet: Remote platform little endian=1
+[2016.04.27-08.39.13:194][543]LogNet: This platform little endian=1
+[2016.04.27-08.39.13:194][543]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.13:206][543]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.13:220][544]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-025F1A164187BCFC7FA1F288715FCC9D userId: ShanyePC-025F1A164187BCFC7FA1F288715FCC9D
+[2016.04.27-08.39.13:221][544]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_0, Game: /Script/Engine.GameMode)
+[2016.04.27-08.39.13:224][544]LogLoad: LoadMap: 127.0.0.1//Temp/UEDPIE_1_Untitled_0?game=/Script/Engine.GameMode
+[2016.04.27-08.39.13:267][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C16260680
+[2016.04.27-08.39.13:269][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CBB790400
+[2016.04.27-08.39.13:270][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CC43D3100
+[2016.04.27-08.39.13:274][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C1EBA3240
+[2016.04.27-08.39.13:289][544]Cmd: MEM
+[2016.04.27-08.39.13:310][544]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.39.13:311][544]LogMemory: Process Physical Memory: 1551.35 MB used, 1776.68 MB peak
+[2016.04.27-08.39.13:311][544]LogMemory: Process Virtual Memory: 3354.00 MB used, 3357.02 MB peak
+[2016.04.27-08.39.13:311][544]LogMemory: Physical Memory: 5983.50 MB used, 12239.21 MB total
+[2016.04.27-08.39.13:311][544]LogMemory: Virtual Memory: 4077.41 MB used, 134217728.00 MB total
+[2016.04.27-08.39.13:311][544]LogMemory: 
+[2016.04.27-08.39.13:311][544]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.39.13:311][544]LogWorld: PIE: Copying PIE streaming level from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_2_Untitled_0.NewWorld. OwningWorld: None
+[2016.04.27-08.39.13:312][544]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-08.39.13:313][544]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_0.NewWorld up for play (max tick rate 0) at 2016.04.27-04.39.13
+[2016.04.27-08.39.13:313][544]LogWorld: Bringing up level for play took: 0.000769
+[2016.04.27-08.39.13:326][545]LogNet: Client netspeed is 10000
+[2016.04.27-08.39.13:326][545]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-025F1A164187BCFC7FA1F288715FCC9D?SplitscreenCount=1
+[2016.04.27-08.39.13:327][545]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.13:328][545]LogNet: Join succeeded: ShanyePC-025F1A16418
+[2016.04.27-08.39.13:340][546]LogNetPackageMap:Warning: FNetGUIDCache::SupportsObject: Level /Temp/UEDPIE_1_Untitled_0.NewWorld:PersistentLevel NOT Supported.
+[2016.04.27-08.39.13:341][546]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.13:342][546]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.13:342][546]LogNetSerialization:Error: FBitReader::SetOverflowed() called
+[2016.04.27-08.39.13:342][546]LogNetSerialization:Error: FBitReader::SerializeBits: Pos + LengthBits > Num
+[2016.04.27-08.39.13:342][546]LogNetPackageMap:Error: InternalLoadObject: Failed to load path name
+[2016.04.27-08.39.13:342][546]LogNetPackageMap:Error: UPackageMapClient::ReceiveNetGUIDBunch: InBunch.IsError() after InternalLoadObject
+[2016.04.27-08.39.13:342][546]LogNetTraffic:Error: UChannel::ReceivedRawBunch: Bunch.IsError() after ReceiveNetGUIDBunch. ChIndex: 9
+[2016.04.27-08.39.14:915][656]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.14:916][656]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.39.14:916][656]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.27-08.39.14:952][656]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.14:953][656]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.27-08.39.14:970][656]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_2] [PlayerController_2]. ChIndex == 0. Closing connection.
+[2016.04.27-08.39.14:970][656]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: PlayerController_2, Owner: PlayerController_2, Channels: 10, RemoteAddr: 127.0.0.1:61572, Time: 2016.04.27-08.39.14
+[2016.04.27-08.39.14:970][656]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.04.27-08.39.14:970][656]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_3] [PlayerController_3]. ChIndex == 0. Closing connection.
+[2016.04.27-08.39.14:970][656]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: PlayerController_3, Owner: PlayerController_3, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.27-08.39.14
+[2016.04.27-08.39.14:970][656]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.04.27-08.39.14:975][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C1881AE80
+[2016.04.27-08.39.14:976][656]LogExit: GameNetDriver None shut down
+[2016.04.27-08.39.14:976][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C22FA56C0
+[2016.04.27-08.39.14:976][656]LogExit: GameNetDriver None shut down
+[2016.04.27-08.39.15:006][657]LogPlayLevel:Display: Destroying online subsystem :Context_27
+[2016.04.27-08.39.15:006][657]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.15:006][657]LogPlayLevel:Display: Destroying online subsystem :Context_26
+[2016.04.27-08.39.15:006][657]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.18:159][ 16]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.39.18:166][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.39.18:191][ 16]Cmd: MAP LOAD FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.27-08.39.18:191][ 16]LightingResults: New page: Lighting Build
+[2016.04.27-08.39.18:194][ 16]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2016.04.27-08.39.18:207][ 16]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.04.27-08.39.18:207][ 16]MapCheck: New page: Map Check
+[2016.04.27-08.39.18:207][ 16]LightingResults: New page: Lighting Build
+[2016.04.27-08.39.18:227][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C44506AC0
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:234][ 16]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.18:235][ 16]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.27-08.39.18:258][ 16]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.27-08.39.18:300][ 16]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.471ms to complete.
+[2016.04.27-08.39.18:300][ 16]LogFileHelpers: Loading map 'MainMenu' took 0.112
+[2016.04.27-08.39.18:324][ 17]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.27-08.39.18:324][ 17]Cmd: UpdateLandscapeEditorData
+[2016.04.27-08.39.19:445][145]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.19:445][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.39.19:447][145]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:39:19 AM)
+[2016.04.27-08.39.19:447][145]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu
+[2016.04.27-08.39.19:453][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005385s)
+[2016.04.27-08.39.19:454][145]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.39.19:454][145]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2016.04.27-08.39.19:454][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu (0.006287s)
+[2016.04.27-08.39.19:477][145]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-08.39.19:490][145]LogInit: FAudioDevice initialized.
+[2016.04.27-08.39.19:563][145]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.19:563][145]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.19:563][145]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.27-08.39.19:563][145]LogWorld: Game class is 'GameMode'
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:566][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:567][145]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:567][145]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.39.19
+[2016.04.27-08.39.19:567][145]LogActor:Warning: GameSession /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.19:568][145]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.19:568][145]LogWorld: Bringing up level for play took: 0.003640
+[2016.04.27-08.39.19:579][145]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.19:580][145]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.39.19:580][145]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.04.27-08.39.19:580][145]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.27-08.39.19:596][145]PIE: Info Play in editor start time for /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu -0.566
+[2016.04.27-08.39.19:599][145]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:39:19 AM)
+[2016.04.27-08.39.19:677][145]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.27-08.39.19:677][145]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.27-08.39.19:678][145]LogNet: Game client on port 7777, rate 10000
+[2016.04.27-08.39.19:678][145]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.19:693][145]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu -0.47
+[2016.04.27-08.39.19:697][145]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.19:697][145]LogNet: NotifyAcceptingConnection: Server MainMenu accept
+[2016.04.27-08.39.19:698][145]LogNet: Open MainMenu 04/27/16 04:39:19 127.0.0.1
+[2016.04.27-08.39.19:698][145]LogNet: Added client connection.  Remote address = 127.0.0.1:63899
+[2016.04.27-08.39.19:698][145]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.04.27-08.39.19:698][145]LogNet: Remote platform little endian=1
+[2016.04.27-08.39.19:698][145]LogNet: This platform little endian=1
+[2016.04.27-08.39.19:698][145]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.19:711][145]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.19:750][146]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-555383794ACDDC8F1809BAAEC49701E2 userId: ShanyePC-555383794ACDDC8F1809BAAEC49701E2
+[2016.04.27-08.39.19:751][146]LogNet: Welcomed by server (Level: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu, Game: /Script/Engine.GameMode)
+[2016.04.27-08.39.19:754][146]LogLoad: LoadMap: 127.0.0.1//Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu?game=/Script/Engine.GameMode
+[2016.04.27-08.39.19:775][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CD300CD60
+[2016.04.27-08.39.19:778][146]Cmd: MEM
+[2016.04.27-08.39.19:801][146]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.39.19:801][146]LogMemory: Process Physical Memory: 1698.18 MB used, 1776.68 MB peak
+[2016.04.27-08.39.19:801][146]LogMemory: Process Virtual Memory: 3211.16 MB used, 3370.69 MB peak
+[2016.04.27-08.39.19:801][146]LogMemory: Physical Memory: 6128.73 MB used, 12239.21 MB total
+[2016.04.27-08.39.19:801][146]LogMemory: Virtual Memory: 3906.91 MB used, 134217728.00 MB total
+[2016.04.27-08.39.19:801][146]LogMemory: 
+[2016.04.27-08.39.19:801][146]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.39.19:806][146]LogWorld: PIE: Copying PIE streaming level from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu. OwningWorld: None
+[2016.04.27-08.39.19:806][146]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:809][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.19:810][146]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.39.19
+[2016.04.27-08.39.19:811][146]LogWorld: Bringing up level for play took: 0.003442
+[2016.04.27-08.39.19:823][147]LogNet: Client netspeed is 10000
+[2016.04.27-08.39.19:824][147]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-555383794ACDDC8F1809BAAEC49701E2?SplitscreenCount=1
+[2016.04.27-08.39.19:824][147]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.19:825][147]LogNet: Join succeeded: ShanyePC-555383794AC
+[2016.04.27-08.39.19:841][148]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.19:928][150]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.26:595][384]LogBlueprintUserMessages: [MyGameInstance_C_3] Client -2: Hello
+[2016.04.27-08.39.26:635][384]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.39.26:671][384]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.39.26:671][384]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.39.26:671][384]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.39.26:671][384]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2016.04.27-08.39.26:671][384]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2016.04.27-08.39.26:671][384]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: PlayerController_7, Owner: PlayerController_7, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.27-08.39.26
+[2016.04.27-08.39.26:671][384]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.04.27-08.39.26:671][384]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2016.04.27-08.39.26:696][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C66F08E00
+[2016.04.27-08.39.26:696][384]Cmd: MEM
+[2016.04.27-08.39.26:719][384]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.39.26:719][384]LogMemory: Process Physical Memory: 1720.46 MB used, 1776.68 MB peak
+[2016.04.27-08.39.26:719][384]LogMemory: Process Virtual Memory: 3200.63 MB used, 3370.69 MB peak
+[2016.04.27-08.39.26:719][384]LogMemory: Physical Memory: 6157.79 MB used, 12239.21 MB total
+[2016.04.27-08.39.26:719][384]LogMemory: Virtual Memory: 3886.91 MB used, 134217728.00 MB total
+[2016.04.27-08.39.26:719][384]LogMemory: 
+[2016.04.27-08.39.26:719][384]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.39.27:217][384]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.27-08.39.27:217][384]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.27-08.39.27:217][384]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.39.27:217][384]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7778
+[2016.04.27-08.39.27:223][384]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.27-04.39.27
+[2016.04.27-08.39.27:223][384]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.27:223][384]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.27:223][384]LogWorld: Bringing up level for play took: 0.005108
+[2016.04.27-08.39.27:223][384]LogLongPackageNames:Warning: URL: :7778//Game/TopDownBP/Maps/TopDownExampleMap: Name may not contain the following characters: :
+[2016.04.27-08.39.27:224][384]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.04.27-08.39.27:254][385]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.04.27-08.39.27:254][385]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_6] [PlayerController_6]. ChIndex == 0. Closing connection.
+[2016.04.27-08.39.27:254][385]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: PlayerController_6, Owner: PlayerController_6, Channels: 11, RemoteAddr: 127.0.0.1:63899, Time: 2016.04.27-08.39.27
+[2016.04.27-08.39.27:254][385]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.04.27-08.39.27:256][385]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.39.32:411][544]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: Hello
+[2016.04.27-08.39.32:412][544]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: -1
+[2016.04.27-08.39.32:412][544]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: No weapon
+[2016.04.27-08.39.33:186][570]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: Hello
+[2016.04.27-08.39.33:186][570]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: -1
+[2016.04.27-08.39.33:186][570]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: No weapon
+[2016.04.27-08.39.33:749][589]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: Hello
+[2016.04.27-08.39.33:749][589]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: -1
+[2016.04.27-08.39.33:749][589]LogBlueprintUserMessages: [cha_BaseBot_C_11] Server: No weapon
+[2016.04.27-08.39.35:532][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.35:564][648]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.35:565][648]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.39.35:565][648]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.27-08.39.35:601][648]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.35:602][648]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.27-08.39.35:602][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.35:629][648]LogExit: GameNetDriver None shut down
+[2016.04.27-08.39.35:630][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C1798ACA0
+[2016.04.27-08.39.35:631][648]LogExit: GameNetDriver None shut down
+[2016.04.27-08.39.35:642][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C6332D580
+[2016.04.27-08.39.35:653][649]LogPlayLevel:Display: Destroying online subsystem :Context_30
+[2016.04.27-08.39.35:653][649]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.35:653][649]LogPlayLevel:Display: Destroying online subsystem :Context_29
+[2016.04.27-08.39.35:653][649]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.39.45:205][644]LogRenderer: Reallocating scene render targets to support 1220x712 (Frame:19723).
+[2016.04.27-08.39.50:734][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.39.52:026][ 39]BlueprintLog: New page: Compile cha_BaseBot
+[2016.04.27-08.39.52:184][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.04.27-08.39.52:220][ 39]BlueprintEditorCompileResults: Info [3289.97] Compile of cha_BaseBot successful! [in 192 ms]
+[2016.04.27-08.39.52:531][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectWarcrab/Blueprints/cha_BaseBot" FILE="../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset" SILENT=true
+[2016.04.27-08.39.52:658][ 56]LogSavePackage: Save=116.225639ms
+[2016.04.27-08.39.52:658][ 56]LogSavePackage: Moving '../../../../../Junior/Repo/GameDev2/Saved/cha_BaseBot241EA76A48FF66C28184EBAD031051F6.tmp' to '../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset'
+[2016.04.27-08.39.52:663][ 56]LogSavePackage: Total save time: 129.944731ms
+[2016.04.27-08.39.52:663][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../Junior/Repo/GameDev2/Content/ProjectWarcrab/Blueprints/cha_BaseBot.uasset
+[2016.04.27-08.39.59:011][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.59:011][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.39.59:013][481]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:39:59 AM)
+[2016.04.27-08.39.59:013][481]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu
+[2016.04.27-08.39.59:019][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005309s)
+[2016.04.27-08.39.59:020][481]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.39.59:021][481]LogPlayLevel: PIE: World Init took: (0.001818s)
+[2016.04.27-08.39.59:021][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu (0.007334s)
+[2016.04.27-08.39.59:021][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.39.59:046][481]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-08.39.59:060][481]LogInit: FAudioDevice initialized.
+[2016.04.27-08.39.59:143][481]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.59:143][481]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.39.59:143][481]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.27-08.39.59:143][481]LogWorld: Game class is 'GameMode'
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:146][481]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:147][481]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.39.59
+[2016.04.27-08.39.59:147][481]LogActor:Warning: GameSession /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.59:147][481]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.39.59:147][481]LogWorld: Bringing up level for play took: 0.003514
+[2016.04.27-08.39.59:158][481]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.59:159][481]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.39.59:159][481]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 7777
+[2016.04.27-08.39.59:159][481]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.27-08.39.59:175][481]PIE: Info Play in editor start time for /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu 1.012
+[2016.04.27-08.39.59:177][481]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:39:59 AM)
+[2016.04.27-08.39.59:257][481]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.27-08.39.59:257][481]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.27-08.39.59:257][481]LogNet: Game client on port 7777, rate 10000
+[2016.04.27-08.39.59:257][481]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.59:273][481]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu 1.111
+[2016.04.27-08.39.59:276][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.39.59:276][481]LogNet: NotifyAcceptingConnection: Server MainMenu accept
+[2016.04.27-08.39.59:276][481]LogNet: Open MainMenu 04/27/16 04:39:59 127.0.0.1
+[2016.04.27-08.39.59:276][481]LogNet: Added client connection.  Remote address = 127.0.0.1:61639
+[2016.04.27-08.39.59:276][481]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.04.27-08.39.59:276][481]LogNet: Remote platform little endian=1
+[2016.04.27-08.39.59:276][481]LogNet: This platform little endian=1
+[2016.04.27-08.39.59:276][481]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.39.59:289][481]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.39.59:304][482]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-6040D4564957E19DFD32259A72B84E8B userId: ShanyePC-6040D4564957E19DFD32259A72B84E8B
+[2016.04.27-08.39.59:305][482]LogNet: Welcomed by server (Level: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu, Game: /Script/Engine.GameMode)
+[2016.04.27-08.39.59:339][482]LogLoad: LoadMap: 127.0.0.1//Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu?game=/Script/Engine.GameMode
+[2016.04.27-08.39.59:362][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C1EB07600
+[2016.04.27-08.39.59:363][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C179B8860
+[2016.04.27-08.39.59:366][482]Cmd: MEM
+[2016.04.27-08.39.59:389][482]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.39.59:389][482]LogMemory: Process Physical Memory: 1939.22 MB used, 2000.48 MB peak
+[2016.04.27-08.39.59:390][482]LogMemory: Process Virtual Memory: 3391.82 MB used, 3458.12 MB peak
+[2016.04.27-08.39.59:390][482]LogMemory: Physical Memory: 6390.46 MB used, 12239.21 MB total
+[2016.04.27-08.39.59:390][482]LogMemory: Virtual Memory: 4153.97 MB used, 134217728.00 MB total
+[2016.04.27-08.39.59:390][482]LogMemory: 
+[2016.04.27-08.39.59:390][482]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.39.59:395][482]LogWorld: PIE: Copying PIE streaming level from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu. OwningWorld: None
+[2016.04.27-08.39.59:396][482]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:399][482]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.39.59:400][482]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.39.59
+[2016.04.27-08.39.59:401][482]LogWorld: Bringing up level for play took: 0.003654
+[2016.04.27-08.39.59:414][483]LogNet: Client netspeed is 10000
+[2016.04.27-08.39.59:414][483]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-6040D4564957E19DFD32259A72B84E8B?SplitscreenCount=1
+[2016.04.27-08.39.59:415][483]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.59:416][483]LogNet: Join succeeded: ShanyePC-6040D456495
+[2016.04.27-08.39.59:430][484]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.39.59:430][484]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.40.03:111][589]LogBlueprintUserMessages: [MyGameInstance_C_5] Client -2: Hello
+[2016.04.27-08.40.03:150][589]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.40.03:187][589]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.40.03:188][589]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.40.03:188][589]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.40.03:188][589]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2016.04.27-08.40.03:188][589]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2016.04.27-08.40.03:188][589]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_6, PC: PlayerController_11, Owner: PlayerController_11, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.27-08.40.03
+[2016.04.27-08.40.03:188][589]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.04.27-08.40.03:188][589]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2016.04.27-08.40.03:212][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C259D9120
+[2016.04.27-08.40.03:216][589]Cmd: MEM
+[2016.04.27-08.40.03:237][589]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.40.03:237][589]LogMemory: Process Physical Memory: 1988.15 MB used, 2000.48 MB peak
+[2016.04.27-08.40.03:237][589]LogMemory: Process Virtual Memory: 3340.60 MB used, 3458.12 MB peak
+[2016.04.27-08.40.03:237][589]LogMemory: Physical Memory: 6440.36 MB used, 12239.21 MB total
+[2016.04.27-08.40.03:237][589]LogMemory: Virtual Memory: 4134.03 MB used, 134217728.00 MB total
+[2016.04.27-08.40.03:237][589]LogMemory: 
+[2016.04.27-08.40.03:237][589]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.40.03:379][589]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.27-08.40.03:379][589]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.27-08.40.03:379][589]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.40.03:380][589]LogNet: GameNetDriver IpNetDriver_7 IpNetDriver listening on port 7778
+[2016.04.27-08.40.03:384][589]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.27-04.40.03
+[2016.04.27-08.40.03:384][589]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.40.03:385][589]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.40.03:385][589]LogWorld: Bringing up level for play took: 0.004444
+[2016.04.27-08.40.03:385][589]LogLongPackageNames:Warning: URL: :7778//Game/TopDownBP/Maps/TopDownExampleMap: Name may not contain the following characters: :
+[2016.04.27-08.40.03:386][589]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.04.27-08.40.03:400][590]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.04.27-08.40.03:400][590]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_10] [PlayerController_10]. ChIndex == 0. Closing connection.
+[2016.04.27-08.40.03:400][590]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_5, PC: PlayerController_10, Owner: PlayerController_10, Channels: 11, RemoteAddr: 127.0.0.1:61639, Time: 2016.04.27-08.40.03
+[2016.04.27-08.40.03:400][590]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.04.27-08.40.03:401][590]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.40.10:890][858]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.10:890][858]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.10:890][858]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.11:702][887]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.11:703][887]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: 0
+[2016.04.27-08.40.12:960][933]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.12:960][933]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.12:960][933]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.14:446][987]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.14:446][987]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.14:446][987]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.16:182][ 50]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.16:182][ 50]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.16:182][ 50]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.16:755][ 71]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.16:755][ 71]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.16:755][ 71]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.17:028][ 81]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.17:028][ 81]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.17:028][ 81]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.21:994][261]LogBlueprintUserMessages: [con_BotController_C_0] Server: Weapon already purchased!
+[2016.04.27-08.40.23:080][300]LogBlueprintUserMessages: [con_BotController_C_0] Server: Weapon Successfully added!
+[2016.04.27-08.40.23:440][313]LogBlueprintUserMessages: [con_BotController_C_0] Server: Weapon Successfully added!
+[2016.04.27-08.40.26:313][417]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.26:313][417]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.26:313][417]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.27:534][461]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.27:534][461]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.27:534][461]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.30:534][570]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.30:534][570]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.30:534][570]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.40.31:688][612]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: Hello
+[2016.04.27-08.40.31:688][612]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: -1
+[2016.04.27-08.40.31:688][612]LogBlueprintUserMessages: [cha_BaseBot_C_15] Server: No weapon
+[2016.04.27-08.41.24:750][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.41.24:784][523]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.41.24:785][523]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.41.24:785][523]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.27-08.41.24:828][523]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.41.24:828][523]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.27-08.41.24:828][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.41.24:853][523]LogExit: GameNetDriver None shut down
+[2016.04.27-08.41.24:853][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CD3D0B600
+[2016.04.27-08.41.24:854][523]LogExit: GameNetDriver None shut down
+[2016.04.27-08.41.24:854][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C259DB1A0
+[2016.04.27-08.41.24:875][524]LogPlayLevel:Display: Destroying online subsystem :Context_33
+[2016.04.27-08.41.24:875][524]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.41.24:875][524]LogPlayLevel:Display: Destroying online subsystem :Context_32
+[2016.04.27-08.41.24:875][524]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.41.36:401][816]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2016.04.27-08.41.43:904][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.41.43:904][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.41.43:906][173]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:41:43 AM)
+[2016.04.27-08.41.43:907][173]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu
+[2016.04.27-08.41.43:912][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004991s)
+[2016.04.27-08.41.43:912][173]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.41.43:912][173]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2016.04.27-08.41.43:913][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu (0.006003s)
+[2016.04.27-08.41.43:913][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.41.43:938][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-08.41.43:951][173]LogInit: FAudioDevice initialized.
+[2016.04.27-08.41.44:034][173]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.41.44:034][173]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.41.44:035][173]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.27-08.41.44:035][173]LogWorld: Game class is 'GameMode'
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:037][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:038][173]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:039][173]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.41.44
+[2016.04.27-08.41.44:039][173]LogActor:Warning: GameSession /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.41.44:039][173]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.41.44:039][173]LogWorld: Bringing up level for play took: 0.003605
+[2016.04.27-08.41.44:050][173]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.41.44:051][173]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.41.44:051][173]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.04.27-08.41.44:051][173]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.27-08.41.44:077][173]PIE: Info Play in editor start time for /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu -0.086
+[2016.04.27-08.41.44:079][173]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:41:44 AM)
+[2016.04.27-08.41.44:166][173]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.27-08.41.44:166][173]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.27-08.41.44:166][173]LogNet: Game client on port 7777, rate 10000
+[2016.04.27-08.41.44:167][173]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.41.44:197][173]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu 0.035
+[2016.04.27-08.41.44:199][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.41.44:199][173]LogNet: NotifyAcceptingConnection: Server MainMenu accept
+[2016.04.27-08.41.44:199][173]LogNet: Open MainMenu 04/27/16 04:41:44 127.0.0.1
+[2016.04.27-08.41.44:199][173]LogNet: Added client connection.  Remote address = 127.0.0.1:54325
+[2016.04.27-08.41.44:199][173]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.04.27-08.41.44:199][173]LogNet: Remote platform little endian=1
+[2016.04.27-08.41.44:199][173]LogNet: This platform little endian=1
+[2016.04.27-08.41.44:199][173]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.41.44:212][173]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.41.44:268][174]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-27EDF9644C6F952C8081BEA6F188DCFF userId: ShanyePC-27EDF9644C6F952C8081BEA6F188DCFF
+[2016.04.27-08.41.44:270][174]LogNet: Welcomed by server (Level: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu, Game: /Script/Engine.GameMode)
+[2016.04.27-08.41.44:298][174]LogLoad: LoadMap: 127.0.0.1//Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu?game=/Script/Engine.GameMode
+[2016.04.27-08.41.44:318][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C179B9EE0
+[2016.04.27-08.41.44:322][174]Cmd: MEM
+[2016.04.27-08.41.44:344][174]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.41.44:344][174]LogMemory: Process Physical Memory: 1719.71 MB used, 2057.76 MB peak
+[2016.04.27-08.41.44:344][174]LogMemory: Process Virtual Memory: 3547.71 MB used, 3547.71 MB peak
+[2016.04.27-08.41.44:344][174]LogMemory: Physical Memory: 6216.95 MB used, 12239.21 MB total
+[2016.04.27-08.41.44:344][174]LogMemory: Virtual Memory: 4321.87 MB used, 134217728.00 MB total
+[2016.04.27-08.41.44:344][174]LogMemory: 
+[2016.04.27-08.41.44:344][174]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.41.44:349][174]LogWorld: PIE: Copying PIE streaming level from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu. OwningWorld: None
+[2016.04.27-08.41.44:350][174]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.41.44:353][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:353][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:354][174]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.41.44:355][174]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.41.44
+[2016.04.27-08.41.44:355][174]LogWorld: Bringing up level for play took: 0.004276
+[2016.04.27-08.41.44:374][175]LogNet: Client netspeed is 10000
+[2016.04.27-08.41.44:374][175]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-27EDF9644C6F952C8081BEA6F188DCFF?SplitscreenCount=1
+[2016.04.27-08.41.44:375][175]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.41.44:376][175]LogNet: Join succeeded: ShanyePC-27EDF9644C6
+[2016.04.27-08.41.44:461][176]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.41.44:463][176]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.41.50:293][299]LogBlueprintUserMessages: [MyGameInstance_C_7] Client -2: Hello
+[2016.04.27-08.41.50:328][299]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.41.50:366][299]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.41.50:366][299]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.41.50:367][299]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.41.50:367][299]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2016.04.27-08.41.50:367][299]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2016.04.27-08.41.50:367][299]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_9, PC: PlayerController_15, Owner: PlayerController_15, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.27-08.41.50
+[2016.04.27-08.41.50:367][299]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.04.27-08.41.50:367][299]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2016.04.27-08.41.50:394][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C5C396840
+[2016.04.27-08.41.50:394][299]Cmd: MEM
+[2016.04.27-08.41.50:415][299]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.41.50:415][299]LogMemory: Process Physical Memory: 1735.91 MB used, 2057.76 MB peak
+[2016.04.27-08.41.50:415][299]LogMemory: Process Virtual Memory: 3547.97 MB used, 3610.00 MB peak
+[2016.04.27-08.41.50:415][299]LogMemory: Physical Memory: 6272.79 MB used, 12239.21 MB total
+[2016.04.27-08.41.50:415][299]LogMemory: Virtual Memory: 4333.93 MB used, 134217728.00 MB total
+[2016.04.27-08.41.50:415][299]LogMemory: 
+[2016.04.27-08.41.50:415][299]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.41.50:566][299]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.27-08.41.50:566][299]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.27-08.41.50:566][299]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.41.50:567][299]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7778
+[2016.04.27-08.41.50:572][299]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.27-04.41.50
+[2016.04.27-08.41.50:572][299]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.41.50:572][299]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_2_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.41.50:572][299]LogWorld: Bringing up level for play took: 0.004575
+[2016.04.27-08.41.50:572][299]LogLongPackageNames:Warning: URL: :7778//Game/TopDownBP/Maps/TopDownExampleMap: Name may not contain the following characters: :
+[2016.04.27-08.41.50:573][299]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.04.27-08.41.50:594][300]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.04.27-08.41.50:594][300]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_14] [PlayerController_14]. ChIndex == 0. Closing connection.
+[2016.04.27-08.41.50:594][300]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, PC: PlayerController_14, Owner: PlayerController_14, Channels: 11, RemoteAddr: 127.0.0.1:54325, Time: 2016.04.27-08.41.50
+[2016.04.27-08.41.50:594][300]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.04.27-08.41.50:595][300]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.42.08:382][665]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: Hello
+[2016.04.27-08.42.08:382][665]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: -1
+[2016.04.27-08.42.08:382][665]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: No weapon
+[2016.04.27-08.42.08:824][676]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: Hello
+[2016.04.27-08.42.08:824][676]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: -1
+[2016.04.27-08.42.08:824][676]LogBlueprintUserMessages: [cha_BaseBot_C_20] Server: No weapon
+[2016.04.27-08.42.24:238][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.42.24:272][ 32]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.42.24:272][ 32]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.04.27-08.42.24:272][ 32]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.04.27-08.42.24:309][ 32]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.42.24:310][ 32]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.04.27-08.42.24:310][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.42.24:334][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CC1A8FB00
+[2016.04.27-08.42.24:334][ 32]LogExit: GameNetDriver None shut down
+[2016.04.27-08.42.24:334][ 32]LogExit: GameNetDriver None shut down
+[2016.04.27-08.42.24:335][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C65730900
+[2016.04.27-08.42.24:403][ 33]LogPlayLevel:Display: Destroying online subsystem :Context_38
+[2016.04.27-08.42.24:403][ 33]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.42.24:403][ 33]LogPlayLevel:Display: Destroying online subsystem :Context_37
+[2016.04.27-08.42.24:403][ 33]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.04.27-08.44.16:898][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.44.16:898][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.44.16:900][156]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:44:16 AM)
+[2016.04.27-08.44.16:901][156]LogPlayLevel: Creating play world package: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu
+[2016.04.27-08.44.16:907][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006117s)
+[2016.04.27-08.44.16:908][156]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.44.16:908][156]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2016.04.27-08.44.16:908][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu (0.007834s)
+[2016.04.27-08.44.16:908][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-08.44.16:937][156]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-08.44.16:951][156]LogInit: FAudioDevice initialized.
+[2016.04.27-08.44.17:022][156]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.44.17:022][156]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/Blueprints/GM_BattleBots'
+[2016.04.27-08.44.17:022][156]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ProjectWarcrab/Blueprints/GM_BattleBots.GM_BattleBots_C'
+[2016.04.27-08.44.17:022][156]LogWorld: Game class is 'GameMode'
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:025][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:026][156]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:027][156]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.44.17
+[2016.04.27-08.44.17:027][156]LogActor:Warning: GameSession /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.44.17:027][156]LogActor:Warning: GameNetworkManager /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.44.17:027][156]LogWorld: Bringing up level for play took: 0.003838
+[2016.04.27-08.44.17:039][156]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.44.17:039][156]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.44.17:040][156]LogNet: GameNetDriver IpNetDriver_11 IpNetDriver listening on port 7777
+[2016.04.27-08.44.17:040][156]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.04.27-08.44.17:072][156]PIE: Info Play in editor start time for /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu 0.909
+[2016.04.27-08.44.17:074][156]PIE: New page: PIE session: MainMenu (Apr 27, 2016, 12:44:17 AM)
+[2016.04.27-08.44.17:155][156]LogNet: Browse: 127.0.0.1//Game/ProjectWarcrab/MainMenu
+[2016.04.27-08.44.17:155][156]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.04.27-08.44.17:155][156]LogNet: Game client on port 7777, rate 10000
+[2016.04.27-08.44.17:155][156]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.44.17:190][156]PIE: Info Play in editor start time for /Game/ProjectWarcrab/MainMenu 1.027
+[2016.04.27-08.44.17:193][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ProjectWarcrab/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.04.27-08.44.17:193][156]LogNet: NotifyAcceptingConnection: Server MainMenu accept
+[2016.04.27-08.44.17:193][156]LogNet: Open MainMenu 04/27/16 04:44:17 127.0.0.1
+[2016.04.27-08.44.17:193][156]LogNet: Added client connection.  Remote address = 127.0.0.1:62928
+[2016.04.27-08.44.17:193][156]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2016.04.27-08.44.17:193][156]LogNet: Remote platform little endian=1
+[2016.04.27-08.44.17:193][156]LogNet: This platform little endian=1
+[2016.04.27-08.44.17:193][156]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: gamedev2, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1639411290
+[2016.04.27-08.44.17:206][156]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.27-08.44.17:248][157]LogNet: Login request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-5F1DC9CA45090809B2683D9E0A355B73 userId: ShanyePC-5F1DC9CA45090809B2683D9E0A355B73
+[2016.04.27-08.44.17:250][157]LogNet: Welcomed by server (Level: /Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu, Game: /Script/Engine.GameMode)
+[2016.04.27-08.44.17:277][157]LogLoad: LoadMap: 127.0.0.1//Game/ProjectWarcrab/Levels/UEDPIE_1_MainMenu?game=/Script/Engine.GameMode
+[2016.04.27-08.44.17:307][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021C937AAC00
+[2016.04.27-08.44.17:312][157]Cmd: MEM
+[2016.04.27-08.44.17:342][157]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.44.17:342][157]LogMemory: Process Physical Memory: 1769.95 MB used, 2057.76 MB peak
+[2016.04.27-08.44.17:342][157]LogMemory: Process Virtual Memory: 3666.31 MB used, 3693.27 MB peak
+[2016.04.27-08.44.17:343][157]LogMemory: Physical Memory: 6421.11 MB used, 12239.21 MB total
+[2016.04.27-08.44.17:343][157]LogMemory: Virtual Memory: 4456.33 MB used, 134217728.00 MB total
+[2016.04.27-08.44.17:343][157]LogMemory: 
+[2016.04.27-08.44.17:343][157]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.44.17:349][157]LogWorld: PIE: Copying PIE streaming level from /Game/ProjectWarcrab/Levels/MainMenu.MainMenu to /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu. OwningWorld: None
+[2016.04.27-08.44.17:350][157]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:354][157]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2016.04.27-08.44.17:355][157]LogWorld: Bringing World /Game/ProjectWarcrab/Levels/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2016.04.27-04.44.17
+[2016.04.27-08.44.17:355][157]LogWorld: Bringing up level for play took: 0.004554
+[2016.04.27-08.44.17:382][158]LogNet: Client netspeed is 10000
+[2016.04.27-08.44.17:382][158]LogNet: Join request: /Game/ProjectWarcrab/MainMenu?Name=ShanyePC-5F1DC9CA45090809B2683D9E0A355B73?SplitscreenCount=1
+[2016.04.27-08.44.17:382][158]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.44.17:383][158]LogNet: Join succeeded: ShanyePC-5F1DC9CA450
+[2016.04.27-08.44.17:430][159]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.44.17:430][159]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.04.27-08.44.28:464][422]LogBlueprintUserMessages: [MyGameInstance_C_8] Server: Hello
+[2016.04.27-08.44.28:501][422]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.44.28:537][422]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve TopDownExampleMap.umap.
+[2016.04.27-08.44.28:537][422]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.44.28:537][422]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap?listen
+[2016.04.27-08.44.28:538][422]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2016.04.27-08.44.28:538][422]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2016.04.27-08.44.28:538][422]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_9, RemoteAddr: 127.0.0.1:62928 Driver: GameNetDriver, PC: PlayerController_18, Owner: PlayerController_18
+[2016.04.27-08.44.28:538][422]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_11, PC: PlayerController_18, Owner: PlayerController_18, Channels: 11, RemoteAddr: 127.0.0.1:62928, Time: 2016.04.27-08.44.28
+[2016.04.27-08.44.28:538][422]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.04.27-08.44.28:538][422]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2016.04.27-08.44.28:563][422]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CC9781120
+[2016.04.27-08.44.28:566][422]Cmd: MEM
+[2016.04.27-08.44.28:588][422]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.44.28:588][422]LogMemory: Process Physical Memory: 1861.04 MB used, 2057.76 MB peak
+[2016.04.27-08.44.28:588][422]LogMemory: Process Virtual Memory: 3668.38 MB used, 3732.23 MB peak
+[2016.04.27-08.44.28:588][422]LogMemory: Physical Memory: 6468.68 MB used, 12239.21 MB total
+[2016.04.27-08.44.28:588][422]LogMemory: Virtual Memory: 4456.34 MB used, 134217728.00 MB total
+[2016.04.27-08.44.28:588][422]LogMemory: 
+[2016.04.27-08.44.28:588][422]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.44.28:740][422]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.04.27-08.44.28:741][422]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.04.27-08.44.28:741][422]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.27-08.44.28:741][422]LogNet: GameNetDriver IpNetDriver_13 IpNetDriver listening on port 7777
+[2016.04.27-08.44.28:746][422]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2016.04.27-04.44.28
+[2016.04.27-08.44.28:746][422]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.44.28:747][422]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_1_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.27-08.44.28:747][422]LogWorld: Bringing up level for play took: 0.004748
+[2016.04.27-08.44.28:748][422]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.04.27-08.44.28:750][422]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.04.27-08.44.28:750][422]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.04.27-08.44.28:750][422]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.04.27-08.44.28:750][422]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_12, PC: PlayerController_19, Owner: PlayerController_19, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.04.27-08.44.28
+[2016.04.27-08.44.28:750][422]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.04.27-08.44.28:751][422]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.04.27-08.44.28:751][422]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.04.27-08.44.28:751][422]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.04.27-08.44.28:751][422]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.04.27-08.44.28:751][422]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.04.27-08.44.28:792][423]LogNet: NotifyAcceptingConnection: Server TopDownExampleMap accept
+[2016.04.27-08.44.28:792][423]LogNet: Open TopDownExampleMap 04/27/16 04:44:28 127.0.0.1
+[2016.04.27-08.44.28:792][423]LogNet: Added client connection.  Remote address = 127.0.0.1:62928
+[2016.04.27-08.44.28:792][423]LogNetTraffic:Warning: High single frame packet loss: 50
+[2016.04.27-08.44.28:796][423]LogSecurity:Warning: 127.0.0.1:62928: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2016.04.27-08.44.28:796][423]LogSecurity:Warning: 127.0.0.1:62928: Closed: Connection closed
+[2016.04.27-08.44.28:796][423]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_13, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:62928, Time: 2016.04.27-08.44.28
+[2016.04.27-08.44.28:796][423]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2016.04.27-08.44.28:797][423]LogNet: Browse: /Game/ProjectWarcrab/MainMenu?closed
+[2016.04.27-08.44.28:797][423]LogNet: Failed; returning to Entry
+[2016.04.27-08.44.28:879][423]LogLoad: LoadMap: /Game/ProjectWarcrab/MainMenu?closed
+[2016.04.27-08.44.28:879][423]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2016.04.27-08.44.28:879][423]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2016.04.27-08.44.28:879][423]LogExit: GameNetDriver IpNetDriver_12 shut down
+[2016.04.27-08.44.28:906][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021CD162F600
+[2016.04.27-08.44.28:906][423]Cmd: MEM
+[2016.04.27-08.44.28:929][423]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.44.28:929][423]LogMemory: Process Physical Memory: 1940.27 MB used, 2057.76 MB peak
+[2016.04.27-08.44.28:929][423]LogMemory: Process Virtual Memory: 3807.23 MB used, 3807.23 MB peak
+[2016.04.27-08.44.28:929][423]LogMemory: Physical Memory: 6551.77 MB used, 12239.21 MB total
+[2016.04.27-08.44.28:929][423]LogMemory: Virtual Memory: 4541.47 MB used, 134217728.00 MB total
+[2016.04.27-08.44.28:929][423]LogMemory: 
+[2016.04.27-08.44.28:929][423]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.44.28:930][423]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/MainMenu'
+[2016.04.27-08.44.28:930][423]LogNet:Error: Failed to load default map (/Game/ProjectWarcrab/MainMenu). Error: (Failed to load package '/Game/ProjectWarcrab/MainMenu')
+[2016.04.27-08.44.30:229][423]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.04.27-08.44.30:229][423]LogNet: Browse: /Game/ProjectWarcrab/MainMenu?Name=Player
+[2016.04.27-08.44.30:230][423]LogLoad: LoadMap: /Game/ProjectWarcrab/MainMenu?Name=Player
+[2016.04.27-08.44.30:252][423]Cmd: MEM
+[2016.04.27-08.44.30:276][423]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.44.30:276][423]LogMemory: Process Physical Memory: 1932.52 MB used, 2057.76 MB peak
+[2016.04.27-08.44.30:276][423]LogMemory: Process Virtual Memory: 3807.33 MB used, 3807.33 MB peak
+[2016.04.27-08.44.30:276][423]LogMemory: Physical Memory: 6543.02 MB used, 12239.21 MB total
+[2016.04.27-08.44.30:276][423]LogMemory: Virtual Memory: 4541.47 MB used, 134217728.00 MB total
+[2016.04.27-08.44.30:276][423]LogMemory: 
+[2016.04.27-08.44.30:276][423]Allocator Stats for TBB: (not implemented)
+[2016.04.27-08.44.30:276][423]LogLinker:Warning: Can't find file '/Game/ProjectWarcrab/MainMenu'
+[2016.04.27-08.44.30:317][423]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.04.27-08.44.34:181][423]LogCrashTracker: 
+
+
+[2016.04.27-08.44.34:181][423]LogCrashTracker: 
+
+
+[2016.04.27-08.44.34:181][423]LogWindows:Error: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp] [Line: 8788] 
+Failed to load package '/Game/ProjectWarcrab/MainMenu'
+
+
+
+
+[2016.04.27-08.44.34:274][423]LogExit: Executing StaticShutdownAfterError
+[2016.04.27-08.44.34:282][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:282][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:282][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:282][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:283][423]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-08.44.34:284][423]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.27-08.44.34:284][423]Log file closed, 04/27/16 04:44:34
